@@ -1,0 +1,1 @@
+these .csv files contain features of the location of the entry (full address,city,country), its active years, and a binary success indicator based on a threshold = 4 active years

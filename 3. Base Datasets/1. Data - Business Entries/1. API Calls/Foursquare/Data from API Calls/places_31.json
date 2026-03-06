@@ -1,0 +1,262 @@
+[
+  {
+    "fsq_id": "517293fce4b046aba0353a42",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384443,
+        "longitude": 22.953511
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Σαρακηνός FC Arena",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5316dd0b498ea63fc7c9fbd8",
+    "categories": [
+      {
+        "id": 17053,
+        "name": "Fireworks Store",
+        "short_name": "Fireworks Store",
+        "plural_name": "Fireworks Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.38327,
+        "longitude": 22.94961
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "Περιφερειακή Οδος",
+      "formatted_address": "Περιφερειακή Οδος, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Κουλουριώτης",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "2ef3799a8ba94335b7f6f613",
+    "categories": [
+      {
+        "id": 17110,
+        "name": "Pet Supplies Store",
+        "short_name": "Pet Supplies Store",
+        "plural_name": "Pet Supplies Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pet_store_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382863,
+        "longitude": 22.948585
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Καζανάκι με Περιφερειακό Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Καζανάκι με Περιφερειακό Βόλος, 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "Eco Pellet Hellas",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ef1f74477166617fd468b57",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.387271,
+        "longitude": 22.957744
+      }
+    },
+    "location": {
+      "address": "Νάξου",
+      "country": "GR",
+      "formatted_address": "Νάξου, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "5x5 Αγίας Παρασκευής",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4e6d0d1f2271d308c838a795",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.390949,
+        "longitude": 22.943572
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "region": "Μαγνησία"
+    },
+    "name": "Fytoko",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4dd3f712e4cd6154148b2938",
+    "categories": [
+      {
+        "id": 10003,
+        "name": "Arcade",
+        "short_name": "Arcade",
+        "plural_name": "Arcades",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/arcade_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.391344,
+        "longitude": 22.943196
+      }
+    },
+    "location": {
+      "address": "Καλλιθέας",
+      "country": "GR",
+      "formatted_address": "Καλλιθέας, 384 45 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Volos Family Land",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "aecf35d92e1844dbccc042cb",
+    "categories": [
+      {
+        "id": 11032,
+        "name": "Electrical Equipment Supplier",
+        "short_name": "Electrical Equipment Supplier",
+        "plural_name": "Electrical Equipment Suppliers",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.381682,
+        "longitude": 22.941529
+      }
+    },
+    "location": {
+      "address": "Πάροδος Βαλαωρίτου Αριστοτέλη 66",
+      "country": "GR",
+      "formatted_address": "Πάροδος Βαλαωρίτου Αριστοτέλη 66, 384 46 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 46",
+      "region": "Μαγνησία"
+    },
+    "name": "Vending Systems (Ζαρκαδασ Σ. & Σια Ε.Ε.)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "536cac4e498e5726c2ad869c",
+    "categories": [
+      {
+        "id": 12009,
+        "name": "Education",
+        "short_name": "Education",
+        "plural_name": "Education",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/school_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.383123,
+        "longitude": 22.953035
+      },
+      "roof": {
+        "latitude": 39.383123,
+        "longitude": 22.953035
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "385 00",
+      "postcode": "385 00"
+    },
+    "name": "30ο Νηπιαγωγείο βόλου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

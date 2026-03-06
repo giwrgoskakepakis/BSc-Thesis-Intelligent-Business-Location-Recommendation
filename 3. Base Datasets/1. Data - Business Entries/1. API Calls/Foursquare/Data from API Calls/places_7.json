@@ -1,0 +1,194 @@
+[
+  {
+    "fsq_id": "55c43dfa498eaba94ab96dc3",
+    "categories": [
+      {
+        "id": 13005,
+        "name": "Beach Bar",
+        "short_name": "Beach Bar",
+        "plural_name": "Beach Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.35161,
+        "longitude": 22.958254
+      },
+      "roof": {
+        "latitude": 39.35161,
+        "longitude": 22.958254
+      }
+    },
+    "location": {
+      "address": "Πάρκο Αναύρου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Πάρκο Αναύρου, 382 22 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 22",
+      "region": "Μαγνησία"
+    },
+    "name": "Isalos Beach Club",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f6e0d95e4b08d8da665631a",
+    "categories": [
+      {
+        "id": 13013,
+        "name": "Hotel Bar",
+        "short_name": "Hotel Bar",
+        "plural_name": "Hotel Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.35311,
+        "longitude": 22.957032
+      },
+      "roof": {
+        "latitude": 39.35311,
+        "longitude": 22.957032
+      }
+    },
+    "location": {
+      "address": "Νικολάου Πλαστήρα 1",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Νικολάου Πλαστήρα 1, 382 22 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 22",
+      "region": "Μαγνησία"
+    },
+    "name": "Yacht Club",
+    "related_places": {
+      "parent": {
+        "fsq_id": "4bd1cd775e0cce724c03a284",
+        "categories": [
+          {
+            "id": 19014,
+            "name": "Hotel",
+            "short_name": "Hotel",
+            "plural_name": "Hotels",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "name": "Domotel Xenia Volos"
+      }
+    },
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fa470fee4b012fefca39793",
+    "categories": [
+      {
+        "id": 10039,
+        "name": "Music Venue",
+        "short_name": "Music Venue",
+        "plural_name": "Music Venues",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.344337,
+        "longitude": 22.942762
+      }
+    },
+    "location": {
+      "address": "ΘΕΣΗ ΠΟΤΑΜΙ ΝΑΟΥΣΑΣ ΠΑΡΟΥ",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "ΘΕΣΗ ΠΟΤΑΜΙ ΝΑΟΥΣΑΣ ΠΑΡΟΥ"
+    },
+    "name": "Φεγγαρια Live",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "57659a3c498e4c55fbbe6593",
+    "categories": [
+      {
+        "id": 13016,
+        "name": "Lounge",
+        "short_name": "Lounge",
+        "plural_name": "Lounges",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.352608,
+        "longitude": 22.958593
+      }
+    },
+    "location": {
+      "address": "Νικολάου Πλαστήρα",
+      "country": "GR",
+      "cross_street": "Ιατρού Τζάνου",
+      "formatted_address": "Νικολάου Πλαστήρα (Ιατρού Τζάνου), 382 22 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 22",
+      "region": "Μαγνησία"
+    },
+    "name": "Το Κύμα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "53f9d9de498ea66a49b468c5",
+    "categories": [
+      {
+        "id": 13034,
+        "name": "Café",
+        "short_name": "Café",
+        "plural_name": "Cafés",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.353133,
+        "longitude": 22.957017
+      }
+    },
+    "location": {
+      "address": "Πλαστήρα 1",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Πλαστήρα 1, 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Domotel Xenia Volos Cafe",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

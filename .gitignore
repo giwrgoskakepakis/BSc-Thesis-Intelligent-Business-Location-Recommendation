@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore LLM weights and checkpoints (the heavy stuff)
+**/Fine-Tuned LLM Models/
+**/checkpoint-*/
+**/adapter_model.bin
+**/pytorch_model.bin
+**/*.pth
+
+# Ignore large datasets if they are huge
+**/*.csv
+**/*.jsonl
+# (Note: You can keep small CSVs, but if they are 100MB+, ignore them)
+
+# Ignore the reading material as discussed
+Reading Material/

@@ -1,0 +1,201 @@
+[
+  {
+    "fsq_id": "516ec594e4b05f6d882f7202",
+    "categories": [
+      {
+        "id": 17056,
+        "name": "Flower Store",
+        "short_name": "Flower Store",
+        "plural_name": "Flower Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/flowershop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.348561,
+        "longitude": 22.922497
+      }
+    },
+    "location": {
+      "address": "Παλατίου 21",
+      "country": "GR",
+      "cross_street": "Pratinou",
+      "formatted_address": "Παλατίου 21 (Pratinou), 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "Μακρόπουλος Βιοτεχνία Στεφανιών Ανθοστολισμοί Εκδηλώσεων",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "8cc7f6036c7d4cca591826c8",
+    "categories": [
+      {
+        "id": 17082,
+        "name": "Furniture and Home Store",
+        "short_name": "Furniture and Home Store",
+        "plural_name": "Furniture and Home Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/furniture_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.346946,
+        "longitude": 22.925781
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 213",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 213, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μεταλλο Και Ξυλο - Καραγιαννουδησ Β & Σια Οε",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "6dec9ea5288e466af017ceb2",
+    "categories": [
+      {
+        "id": 17011,
+        "name": "Car Parts and Accessories",
+        "short_name": "Car Part and Accessory",
+        "plural_name": "Car Parts and Accessories",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.348335,
+        "longitude": 22.925539
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 140 Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 140 Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Hyper Sound Lab",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "cf606640bbdb419796513e21",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Κεντρική Λαχαναγορά Βόλος",
+      "country": "GR",
+      "formatted_address": "Κεντρική Λαχαναγορά Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μπαλαμωτησ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "e4a229fef26845f2dc0f3123",
+    "categories": [
+      {
+        "id": 17006,
+        "name": "Car Dealership",
+        "short_name": "Car Dealer",
+        "plural_name": "Car Dealerships",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 96 Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 96 Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Ford Αναστασιου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "c7e171ac85e24a5680ae2be4",
+    "categories": [
+      {
+        "id": 17082,
+        "name": "Furniture and Home Store",
+        "short_name": "Furniture and Home Store",
+        "plural_name": "Furniture and Home Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/furniture_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.354804,
+        "longitude": 22.925248
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 88",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 88, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Κουλουρη Νικολ. Υιοι",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

@@ -1,0 +1,527 @@
+[
+  {
+    "fsq_id": "36393bcbc6774562d45eca85",
+    "categories": [
+      {
+        "id": 17057,
+        "name": "Food and Beverage Retail",
+        "short_name": "Food & Beverage",
+        "plural_name": "Food and Beverage Retail",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.356302,
+        "longitude": 22.923469
+      },
+      "main": {
+        "latitude": 39.35638,
+        "longitude": 22.92336
+      }
+    },
+    "location": {
+      "address": "Κορωνίου 20",
+      "country": "GR",
+      "formatted_address": "Κορωνίου 20, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Food Service Καρακατσανησ Α.Κ.- Καρακατσανησ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "d023237e55d8430108719024",
+    "categories": [
+      {
+        "id": 17011,
+        "name": "Car Parts and Accessories",
+        "short_name": "Car Part and Accessory",
+        "plural_name": "Car Parts and Accessories",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.358146,
+        "longitude": 22.924759
+      },
+      "main": {
+        "latitude": 39.35816,
+        "longitude": 22.924739
+      }
+    },
+    "location": {
+      "address": "Κορωνίου 4",
+      "country": "GR",
+      "formatted_address": "Κορωνίου 4, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Χαλιφασ Κωνσταντινοσ Κ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "e182d06951b74b3ac92cc49a",
+    "categories": [
+      {
+        "id": 17100,
+        "name": "Newsstand",
+        "short_name": "Newsstand",
+        "plural_name": "Newsstands",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/newsstand_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.355263,
+        "longitude": 22.925644
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 84",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 84, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μαγνησια",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50ed6e32e4b06915b3c8d404",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.352039,
+        "longitude": 22.922585
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "3Β Μαρκετ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ee98be15c5c0575fa817079",
+    "categories": [
+      {
+        "id": 12059,
+        "name": "High School",
+        "short_name": "High School",
+        "plural_name": "High Schools",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/school_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.359933,
+        "longitude": 22.926386
+      },
+      "roof": {
+        "latitude": 39.359933,
+        "longitude": 22.926386
+      }
+    },
+    "location": {
+      "address": "Καλέργη",
+      "country": "GR",
+      "cross_street": "Κορδικτώνος",
+      "formatted_address": "Καλέργη (Κορδικτώνος), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "4o Lukeio Volou",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f26d85fe4b0d609c8ea413c",
+    "categories": [],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.360687,
+        "longitude": 22.926729
+      }
+    },
+    "location": {
+      "address": "Λεμεσσού",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Λεμεσσού, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Φροντιστήριο Αγγλικών Πέπη Τόμπρα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "cf606640bbdb419796513e21",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Κεντρική Λαχαναγορά Βόλος",
+      "country": "GR",
+      "formatted_address": "Κεντρική Λαχαναγορά Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μπαλαμωτησ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "e4a229fef26845f2dc0f3123",
+    "categories": [
+      {
+        "id": 17006,
+        "name": "Car Dealership",
+        "short_name": "Car Dealer",
+        "plural_name": "Car Dealerships",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 96 Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 96 Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Ford Αναστασιου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5491a3c3498e896501a62ca6",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.3612,
+        "longitude": 22.92773
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Δημοτικό Στάδιο Νεάπολης",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "541f05d8498ee14d9f929f41",
+    "categories": [
+      {
+        "id": 18008,
+        "name": "Basketball Court",
+        "short_name": "Basketball Court",
+        "plural_name": "Basketball Courts",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/basketballcourt_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.359621,
+        "longitude": 22.92965
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Neapolis Basketball Court",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "516ec594e4b05f6d882f7202",
+    "categories": [
+      {
+        "id": 17056,
+        "name": "Flower Store",
+        "short_name": "Flower Store",
+        "plural_name": "Flower Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/flowershop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.348561,
+        "longitude": 22.922497
+      }
+    },
+    "location": {
+      "address": "Παλατίου 21",
+      "country": "GR",
+      "cross_street": "Pratinou",
+      "formatted_address": "Παλατίου 21 (Pratinou), 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "Μακρόπουλος Βιοτεχνία Στεφανιών Ανθοστολισμοί Εκδηλώσεων",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5b28d79fa89b5a003194c44e",
+    "categories": [
+      {
+        "id": 17102,
+        "name": "Office Supply Store",
+        "short_name": "Office Supplies",
+        "plural_name": "Office Supply Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/papergoods_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363884,
+        "longitude": 22.926458
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Σδρόλιας",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "532aa30e498e96f79e389b0b",
+    "categories": [
+      {
+        "id": 17090,
+        "name": "Hardware Store",
+        "short_name": "Hardware",
+        "plural_name": "Hardware Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/hardware_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363194,
+        "longitude": 22.914523
+      }
+    },
+    "location": {
+      "address": "Διμηνίου 19",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Διμηνίου 19, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Αφοί Παπαγιάννη Α.Ε",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "6dec9ea5288e466af017ceb2",
+    "categories": [
+      {
+        "id": 17011,
+        "name": "Car Parts and Accessories",
+        "short_name": "Car Part and Accessory",
+        "plural_name": "Car Parts and Accessories",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.348335,
+        "longitude": 22.925539
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 140 Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 140 Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Hyper Sound Lab",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "502ab5fdf4634a5551a1bd93",
+    "categories": [
+      {
+        "id": 11087,
+        "name": "Heating, Ventilating and Air Conditioning Contractor",
+        "short_name": "Heating, Ventilating and Air Conditioning Contractor",
+        "plural_name": "Heating, Ventilating and Air Conditioning Contractors",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/hardware_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.362766,
+        "longitude": 22.929365
+      },
+      "main": {
+        "latitude": 39.362723,
+        "longitude": 22.929421
+      }
+    },
+    "location": {
+      "address": "Νεαπόλεως 27",
+      "country": "GR",
+      "formatted_address": "Νεαπόλεως 27, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "- Τσικακησ Ν Δημητριοσ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5014433fe4b08f147c7fe8a0",
+    "categories": [
+      {
+        "id": 13186,
+        "name": "Ouzeri",
+        "short_name": "Ouzeries",
+        "plural_name": "Ouzeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.358723,
+        "longitude": 22.932587
+      }
+    },
+    "location": {
+      "address": "Παραλία Βολου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παραλία Βολου, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Ποσειδών",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

@@ -1,0 +1,1 @@
+Those are .csv files with only 1 feature, a text, which is a combination of the 'useful' initial features of the dataset

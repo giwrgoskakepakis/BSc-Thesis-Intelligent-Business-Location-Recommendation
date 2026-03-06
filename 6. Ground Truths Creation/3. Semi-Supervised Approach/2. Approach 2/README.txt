@@ -1,0 +1,1 @@
+This approach uses the Neighborhood and the Municipal Community features for performing the SSL method (pseudo-labeling)

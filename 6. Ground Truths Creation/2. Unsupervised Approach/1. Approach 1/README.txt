@@ -1,0 +1,1 @@
+This approach uses just the Neighborhood features for the performing the clustering

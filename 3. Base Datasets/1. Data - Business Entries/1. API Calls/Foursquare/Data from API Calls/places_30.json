@@ -1,0 +1,537 @@
+[
+  {
+    "fsq_id": "514c9538e4b03f3e2d7351db",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382405,
+        "longitude": 22.940768
+      },
+      "roof": {
+        "latitude": 39.382405,
+        "longitude": 22.940768
+      }
+    },
+    "location": {
+      "address": "Φυτόκου 14",
+      "country": "GR",
+      "cross_street": "Νίτσας Κολιού",
+      "formatted_address": "Φυτόκου 14 (Νίτσας Κολιού), 384 46 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 46",
+      "region": "Μαγνησία"
+    },
+    "name": "Lidl",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "aecf35d92e1844dbccc042cb",
+    "categories": [
+      {
+        "id": 11032,
+        "name": "Electrical Equipment Supplier",
+        "short_name": "Electrical Equipment Supplier",
+        "plural_name": "Electrical Equipment Suppliers",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.381682,
+        "longitude": 22.941529
+      }
+    },
+    "location": {
+      "address": "Πάροδος Βαλαωρίτου Αριστοτέλη 66",
+      "country": "GR",
+      "formatted_address": "Πάροδος Βαλαωρίτου Αριστοτέλη 66, 384 46 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 46",
+      "region": "Μαγνησία"
+    },
+    "name": "Vending Systems (Ζαρκαδασ Σ. & Σια Ε.Ε.)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f0ebefde4b08ead5f22db9b",
+    "categories": [
+      {
+        "id": 18075,
+        "name": "Swimming Pool",
+        "short_name": "Pool",
+        "plural_name": "Swimming Pools",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/pool_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382823,
+        "longitude": 22.931622
+      }
+    },
+    "location": {
+      "address": "Γ. Δοξοπουλου 35",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Γ. Δοξοπουλου 35, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Δημοτικο Κολυμβητηριο Ν. Ιωνιαs \"Ολυμπιονικηs Βας. Πολυμεροs\"",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4e6d0d1f2271d308c838a795",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.390949,
+        "longitude": 22.943572
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "region": "Μαγνησία"
+    },
+    "name": "Fytoko",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4d3e107c6e252c0f70a9e23b",
+    "categories": [
+      {
+        "id": 10051,
+        "name": "Stadium",
+        "short_name": "Stadium",
+        "plural_name": "Stadiums",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.387221,
+        "longitude": 22.93087
+      }
+    },
+    "location": {
+      "address": "Σταδίου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Σταδίου, 384 45 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Panthessaliko Stadium (Πανθεσσαλικό Στάδιο Βόλου)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4dd3f712e4cd6154148b2938",
+    "categories": [
+      {
+        "id": 10003,
+        "name": "Arcade",
+        "short_name": "Arcade",
+        "plural_name": "Arcades",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/arcade_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.391344,
+        "longitude": 22.943196
+      }
+    },
+    "location": {
+      "address": "Καλλιθέας",
+      "country": "GR",
+      "formatted_address": "Καλλιθέας, 384 45 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Volos Family Land",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f254ac3e4b063d40162769a",
+    "categories": [
+      {
+        "id": 10051,
+        "name": "Stadium",
+        "short_name": "Stadium",
+        "plural_name": "Stadiums",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.383171,
+        "longitude": 22.933577
+      }
+    },
+    "location": {
+      "address": "Δωρίδος",
+      "country": "GR",
+      "cross_street": "Σταδίου",
+      "formatted_address": "Δωρίδος (Σταδίου), Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Δημοτικό Γυμναστήριο Νέας Ιωνίας Βόλου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fedfb42e4b0647d7c097eb8",
+    "categories": [
+      {
+        "id": 10043,
+        "name": "Theater",
+        "short_name": "Theater",
+        "plural_name": "Theaters",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.379212,
+        "longitude": 22.934455
+      }
+    },
+    "location": {
+      "country": "GR",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Open Municipal Theater of Nea Ionia (Ανοιχτό Δημοτικό Θέατρο Ν. Ιωνίας)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "2ef3799a8ba94335b7f6f613",
+    "categories": [
+      {
+        "id": 17110,
+        "name": "Pet Supplies Store",
+        "short_name": "Pet Supplies Store",
+        "plural_name": "Pet Supplies Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pet_store_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382863,
+        "longitude": 22.948585
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Καζανάκι με Περιφερειακό Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Καζανάκι με Περιφερειακό Βόλος, 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "Eco Pellet Hellas",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5316dd0b498ea63fc7c9fbd8",
+    "categories": [
+      {
+        "id": 17053,
+        "name": "Fireworks Store",
+        "short_name": "Fireworks Store",
+        "plural_name": "Fireworks Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.38327,
+        "longitude": 22.94961
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "Περιφερειακή Οδος",
+      "formatted_address": "Περιφερειακή Οδος, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Κουλουριώτης",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "52e21d9b11d2939dd641c5f0",
+    "categories": [
+      {
+        "id": 13145,
+        "name": "Fast Food Restaurant",
+        "short_name": "Fast Food",
+        "plural_name": "Fast Food Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.381117,
+        "longitude": 22.934613
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Peach Pit",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50ace0f2e4b0b08d88b73036",
+    "categories": [
+      {
+        "id": 17006,
+        "name": "Car Dealership",
+        "short_name": "Car Dealer",
+        "plural_name": "Car Dealerships",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.38081,
+        "longitude": 22.934983
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "AMV - Assistance OE",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "a1f57265d0ff4f447374c919",
+    "categories": [
+      {
+        "id": 11173,
+        "name": "TV Station",
+        "short_name": "TV Station",
+        "plural_name": "TV Stations",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 17100,
+        "name": "Newsstand",
+        "short_name": "Newsstand",
+        "plural_name": "Newsstands",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/newsstand_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.378868,
+        "longitude": 22.94149
+      }
+    },
+    "location": {
+      "address": "Τσιγάντε 32",
+      "country": "GR",
+      "formatted_address": "Τσιγάντε 32, 384 46 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 46",
+      "region": "Μαγνησία"
+    },
+    "name": "Volos Rtv",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51c9dd40498e996b649dc25d",
+    "categories": [
+      {
+        "id": 17089,
+        "name": "Gift Store",
+        "short_name": "Gift Store",
+        "plural_name": "Gift Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/giftshop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.378775,
+        "longitude": 22.940581
+      }
+    },
+    "location": {
+      "address": "Παρασκευοπουλου",
+      "country": "GR",
+      "cross_street": "Πολυτεχνείου",
+      "formatted_address": "Παρασκευοπουλου (Πολυτεχνείου), Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Αποθήκη παιχνιδιών χατζηδημητριου κ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "7a09be915c1a42a0017e21d2",
+    "categories": [
+      {
+        "id": 17035,
+        "name": "Drugstore",
+        "short_name": "Drugstore",
+        "plural_name": "Drugstores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.378174,
+        "longitude": 22.938112
+      }
+    },
+    "location": {
+      "address": "Φυτόκου 1",
+      "country": "GR",
+      "formatted_address": "Φυτόκου 1, 384 46 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 46",
+      "region": "Μαγνησία"
+    },
+    "name": "Τσαρδίνη Ειρήνη Ι.",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4eedccfe4901dff307b896e8",
+    "categories": [
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.380505,
+        "longitude": 22.932623
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Η Λίμνη",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

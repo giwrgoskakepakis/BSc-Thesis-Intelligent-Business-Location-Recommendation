@@ -1,0 +1,1 @@
+This folder contains the 1st draft of the idea for the implementation of the project, along with its presentation

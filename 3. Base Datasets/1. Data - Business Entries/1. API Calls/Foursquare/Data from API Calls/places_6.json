@@ -1,0 +1,134 @@
+[
+  {
+    "fsq_id": "4fa470fee4b012fefca39793",
+    "categories": [
+      {
+        "id": 10039,
+        "name": "Music Venue",
+        "short_name": "Music Venue",
+        "plural_name": "Music Venues",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.344337,
+        "longitude": 22.942762
+      }
+    },
+    "location": {
+      "address": "ΘΕΣΗ ΠΟΤΑΜΙ ΝΑΟΥΣΑΣ ΠΑΡΟΥ",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "ΘΕΣΗ ΠΟΤΑΜΙ ΝΑΟΥΣΑΣ ΠΑΡΟΥ"
+    },
+    "name": "Φεγγαρια Live",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5033c2a3e4b00095ef7e711f",
+    "categories": [
+      {
+        "id": 16030,
+        "name": "Other Great Outdoors",
+        "short_name": "Other Outdoors",
+        "plural_name": "Other Great Outdoors",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/outdoors_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.341078,
+        "longitude": 22.937615
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Πευκάκια",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4dbb583793a08f9274a2b3c3",
+    "categories": [
+      {
+        "id": 10032,
+        "name": "Night Club",
+        "short_name": "Night Club",
+        "plural_name": "Night Clubs",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.338626,
+        "longitude": 22.938728
+      }
+    },
+    "location": {
+      "address": "Παπαδάκου 26",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παπαδάκου 26, 383 33 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 33",
+      "region": "Μαγνησία"
+    },
+    "name": "Amaze Club",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fb78d43e4b05fd9422c2777",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.337973,
+        "longitude": 22.938164
+      },
+      "main": {
+        "latitude": 39.338092,
+        "longitude": 22.938057
+      }
+    },
+    "location": {
+      "address": "Παραλία Αλυκών",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παραλία Αλυκών, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Στον αφρο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

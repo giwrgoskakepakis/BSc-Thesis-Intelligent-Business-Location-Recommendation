@@ -1,0 +1,30 @@
+# Datasets Catalog:
+
+## Gpt-like (WRONG DATA, SIMULATION)
+- "gpt_hotels_volos-GEOCODED.xlsx"    --> name, address, rating, city, zip, lat/long, category, reviews                   (10)
+- "gpt_restaurants_volos.xlsx"        --> name, address, rating, city, zip, lat/long, category, reviews                   (16)
+- "gpt_yelp_data.xlsx"                --> name, address, rating, city, zip, lat/long, category, reviews                   (8)
+
+
+
+## API 
+- "forthsquare_data.xlsx"             --> name, address, rating, city, zip, lat/long, category, country, reviews, -----------, -----    (307)
+
+## Web Scraping
+- "xrysos-odigos-volos-ratings.csv"   --> name, address, rating, city, zip, lat/long, category, country, reviews, description, phone    (4364)
+- "greek-catalog-volos.csv"           --> name, address, rating, city, zip, lat/long, category, country, reviews, -----------, -----     (47)
+- "vacation-renter-volos.csv"         --> name, address, rating, city, zip, lat/long, category, country, ------ , description, features  (24)
+- "dept-businesses.csv"               --> name, address,       , city, dept                                                               (?)
+- "NumbeoVolos.csv"                   --> service, price, lower, upper                                                                    (?)
+
+## Main
+- "Economic_Activities_Volos.xlsx"    -->     , address,       , city, zip, lat/long (for some), category, department, legal form, start date, break date, ΣΤΑΚΟΔ
+- "ΕΡΓΑ ΒΟΛΟΣ.xlsx"                   -->     , adress,        , city,                         , category, ΚΑΔ, 
+
+
+
+
+## ΚΑΔ 
+- "Διευθύνσεις_ΚΑΔ_Επιχειρήσεις.xlsx" --> address, ΚΑΔ (multiple), category (multiple)
+
++ ELSTAT, QGIS/OSM, ...

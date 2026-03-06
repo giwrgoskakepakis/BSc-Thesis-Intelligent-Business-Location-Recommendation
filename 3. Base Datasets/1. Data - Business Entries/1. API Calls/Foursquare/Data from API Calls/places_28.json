@@ -1,0 +1,323 @@
+[
+  {
+    "fsq_id": "8a9f73f05dfe4dbbbbd5524f",
+    "categories": [
+      {
+        "id": 13002,
+        "name": "Bakery",
+        "short_name": "Bakery",
+        "plural_name": "Bakeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384458,
+        "longitude": 22.919303
+      }
+    },
+    "location": {
+      "address": "Βενιζέλου Ελευθερίου 199",
+      "country": "GR",
+      "formatted_address": "Βενιζέλου Ελευθερίου 199, 384 45 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Καραμανιόλας Ιωάννης Χ.",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "55b0a559498eb6db618287e6",
+    "categories": [
+      {
+        "id": 11028,
+        "name": "Construction",
+        "short_name": "Construction",
+        "plural_name": "Construction",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384719,
+        "longitude": 22.917956
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Οικοδομικα Υλικα \"Μακράκης\"",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ff2ac81e4b0fbee96b0d589",
+    "categories": [
+      {
+        "id": 12072,
+        "name": "Police Station",
+        "short_name": "Police Station",
+        "plural_name": "Police Stations",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_policestation_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382909,
+        "longitude": 22.922201
+      }
+    },
+    "location": {
+      "address": "Ελ. Βενιζέλου 158",
+      "country": "GR",
+      "cross_street": "Πατούχα",
+      "formatted_address": "Ελ. Βενιζέλου 158 (Πατούχα), 384 45 Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Police Station of Magnesia (Αστυνομική Διεύθυνση Μαγνησίας)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5368aa95498e2748cad2aae4",
+    "categories": [
+      {
+        "id": 16014,
+        "name": "Farm",
+        "short_name": "Farm",
+        "plural_name": "Farms",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/farm_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384701,
+        "longitude": 22.916417
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "\"Kune\" Σπιτικο Κονικλοτροφειο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4d3e107c6e252c0f70a9e23b",
+    "categories": [
+      {
+        "id": 10051,
+        "name": "Stadium",
+        "short_name": "Stadium",
+        "plural_name": "Stadiums",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.387221,
+        "longitude": 22.93087
+      }
+    },
+    "location": {
+      "address": "Σταδίου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Σταδίου, 384 45 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Panthessaliko Stadium (Πανθεσσαλικό Στάδιο Βόλου)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f0ebefde4b08ead5f22db9b",
+    "categories": [
+      {
+        "id": 18075,
+        "name": "Swimming Pool",
+        "short_name": "Pool",
+        "plural_name": "Swimming Pools",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/pool_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382823,
+        "longitude": 22.931622
+      }
+    },
+    "location": {
+      "address": "Γ. Δοξοπουλου 35",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Γ. Δοξοπουλου 35, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Δημοτικο Κολυμβητηριο Ν. Ιωνιαs \"Ολυμπιονικηs Βας. Πολυμεροs\"",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "529e35d4498e049c275d5483",
+    "categories": [
+      {
+        "id": 13186,
+        "name": "Ouzeri",
+        "short_name": "Ouzeries",
+        "plural_name": "Ouzeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382352,
+        "longitude": 22.930257
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Ουζερί-Ταβέρνα Αστερίας",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51387cd2e4b09cebdacca323",
+    "categories": [
+      {
+        "id": 13002,
+        "name": "Bakery",
+        "short_name": "Bakery",
+        "plural_name": "Bakeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.379341,
+        "longitude": 22.919384
+      }
+    },
+    "location": {
+      "address": "αγχιαλου με ξενοφωντος Ν.ΙΩΝΙΑ",
+      "country": "GR",
+      "cross_street": "Άνωθεν Βαμβακουργίας",
+      "formatted_address": "αγχιαλου με ξενοφωντος Ν.ΙΩΝΙΑ (Άνωθεν Βαμβακουργίας), Νέα Ιωνία, Μαγνησία",
+      "locality": "Νέα Ιωνία",
+      "region": "Μαγνησία"
+    },
+    "name": "Φούρνος Γκαβοπούλου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5555c3f2498ed14110b981a2",
+    "categories": [
+      {
+        "id": 17025,
+        "name": "Electronics Store",
+        "short_name": "Electronics",
+        "plural_name": "Electronics Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/technology_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.379644,
+        "longitude": 22.925992
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Digital Solutions",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51d163c1498efa52a3979735",
+    "categories": [
+      {
+        "id": 18000,
+        "name": "Sports and Recreation",
+        "short_name": "Sports and Recreation",
+        "plural_name": "Sports and Recreation",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/sports_outdoors_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.387718,
+        "longitude": 22.931797
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Fitness Factory",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

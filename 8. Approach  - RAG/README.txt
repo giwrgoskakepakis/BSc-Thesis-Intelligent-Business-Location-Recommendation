@@ -1,0 +1,26 @@
+This folder contains information about the approach of Retrieval Augmented Generation (RAG) to perform the 
+recommendations. This method does NOT require a model Fine-Tuning, it uses an Embedder and the model "llama3"
+(downloaded locally) to generate the coherent output.
+
+- I created a Description for each Neighborhood (same Stats and Templates as used in the Fine-Tuning dataset creation)
+- I loaded the Embedder "BAAI/bge-large-en-v1.5"
+- I used the Embedder on the Query VS the NACE Descriptions, to extract the NACE code and its Top-10 Ground-Truth recommendations
+- I used the Embedder on the Query VS the Neighborhood Descriptions, to extract the 3 best locations based on User Preference
+- I used the LLM "llama3" to perform RAG and generate the final user output
+
+
+
+
+The RAG pipeline had better ranking metrics (Match@3/Precision@3) than the Fine-Tuned LLM (!), but a worse BERT-score. This indicates 
+that the actual top-3 suggestion is better, which is expected since it is essentially equal to the Embedder accuracy.
+
+If I had to compare them, I would choose the RAG architecture, since:
+- It requires no Fine-Tuning
+- It is scalable (I can add more NACE codes without the for re-training)
+- It does not hallucinate numbers
+- Personalization based on the user query
+
+However, the Fine-Tuned approach also has some advantages:
+- It can generalize to NACE codes it has not seen
+- It has a faster inference (no real-time embedding)
+- It produces a pre-defined output (good if we want a specific format)

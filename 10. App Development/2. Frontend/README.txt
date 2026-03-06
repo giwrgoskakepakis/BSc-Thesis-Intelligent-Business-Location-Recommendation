@@ -1,0 +1,1 @@
+This folder contains information about the Frontent Development. I used the 'Streamlit' framework.

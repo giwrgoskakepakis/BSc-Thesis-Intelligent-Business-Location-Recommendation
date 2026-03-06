@@ -1,0 +1,1 @@
+This approach uses the Neighborhood and the Municipal Community features for the creating of the ML model dataset

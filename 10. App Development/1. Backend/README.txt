@@ -1,0 +1,1 @@
+This folder contains information about the Backend Development. I used the 'FastAPI' framework.

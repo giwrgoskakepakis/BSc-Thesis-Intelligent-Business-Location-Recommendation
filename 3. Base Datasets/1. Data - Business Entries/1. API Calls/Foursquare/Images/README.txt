@@ -1,0 +1,2 @@
+This folder contains images that display the total area that the Foursquare API Calls cover. Essentially, I am supposed to get 
+every possible business entry that exists inside this covered area. The area covers most of Volos, but does not extend outside of it.

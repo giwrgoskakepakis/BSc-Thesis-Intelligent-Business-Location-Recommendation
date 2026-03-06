@@ -1,0 +1,1 @@
+these .csv files contain essentially all the needed information, the location features (full address,city,country), the active years and the success value, and the LLM predicted success probability as well

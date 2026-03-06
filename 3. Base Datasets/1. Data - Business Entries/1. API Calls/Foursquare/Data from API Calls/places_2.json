@@ -1,0 +1,358 @@
+[
+  {
+    "fsq_id": "60df6eafa0bad77d79156fc6",
+    "categories": [
+      {
+        "id": 13005,
+        "name": "Beach Bar",
+        "short_name": "Beach Bar",
+        "plural_name": "Beach Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.333675,
+        "longitude": 22.933719
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "385 00 Μαγνησία, Μαγνησία",
+      "locality": "Μαγνησία",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "BOHEMIA Seaside Luxury",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "76688dee6da84d2bb26a51fb",
+    "categories": [
+      {
+        "id": 11163,
+        "name": "Shipping, Freight, and Material Transportation Service",
+        "short_name": "Shipping Service",
+        "plural_name": "Shipping, Freight, and Material Transportation Services",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332756,
+        "longitude": 22.929457
+      }
+    },
+    "location": {
+      "address": "Αλόης 179Γ",
+      "country": "GR",
+      "formatted_address": "Αλόης 179Γ, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Frago Cargo (Φραγγοσ Νικολαοσ)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51e41b44498e5e203ab89188",
+    "categories": [
+      {
+        "id": 13034,
+        "name": "Café",
+        "short_name": "Café",
+        "plural_name": "Cafés",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.331397,
+        "longitude": 22.931866
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Vista Il Mare",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "53819c48498eaced54c6e774",
+    "categories": [
+      {
+        "id": 12101,
+        "name": "Church",
+        "short_name": "Church",
+        "plural_name": "Churches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.331269,
+        "longitude": 22.931442
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Αγία Ειρήνη",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fb78d43e4b05fd9422c2777",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.337973,
+        "longitude": 22.938164
+      },
+      "main": {
+        "latitude": 39.338092,
+        "longitude": 22.938057
+      }
+    },
+    "location": {
+      "address": "Παραλία Αλυκών",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παραλία Αλυκών, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Στον αφρο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4e2b0d4bae605c533a338cac",
+    "categories": [
+      {
+        "id": 12101,
+        "name": "Church",
+        "short_name": "Church",
+        "plural_name": "Churches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332305,
+        "longitude": 22.926496
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Προφήτης Ηλίας Αλυκών",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4dbb583793a08f9274a2b3c3",
+    "categories": [
+      {
+        "id": 10032,
+        "name": "Night Club",
+        "short_name": "Night Club",
+        "plural_name": "Night Clubs",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.338626,
+        "longitude": 22.938728
+      }
+    },
+    "location": {
+      "address": "Παπαδάκου 26",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παπαδάκου 26, 383 33 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 33",
+      "region": "Μαγνησία"
+    },
+    "name": "Amaze Club",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "55ddab92498e0a8d9dea9765",
+    "categories": [
+      {
+        "id": 17056,
+        "name": "Flower Store",
+        "short_name": "Flower Store",
+        "plural_name": "Flower Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/flowershop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.335293,
+        "longitude": 22.923506
+      }
+    },
+    "location": {
+      "address": "6χλ.βολου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "6χλ.βολου, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Άνθη-φυτά",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51ea7b5e498e66e8c0106fee",
+    "categories": [
+      {
+        "id": 17082,
+        "name": "Furniture and Home Store",
+        "short_name": "Furniture and Home Store",
+        "plural_name": "Furniture and Home Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/furniture_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.339233,
+        "longitude": 22.923969
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Μέταλλο και ξύλο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5033c2a3e4b00095ef7e711f",
+    "categories": [
+      {
+        "id": 16030,
+        "name": "Other Great Outdoors",
+        "short_name": "Other Outdoors",
+        "plural_name": "Other Great Outdoors",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/outdoors_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.341078,
+        "longitude": 22.937615
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Πευκάκια",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50c33422e4b0fb7143323a74",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332876,
+        "longitude": 22.929374
+      }
+    },
+    "location": {
+      "address": "Βάκχου 4",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βάκχου 4, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Αλφα Ωμεγα Express Market",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

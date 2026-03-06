@@ -1,0 +1,162 @@
+[
+  {
+    "fsq_id": "55ddab92498e0a8d9dea9765",
+    "categories": [
+      {
+        "id": 17056,
+        "name": "Flower Store",
+        "short_name": "Flower Store",
+        "plural_name": "Flower Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/flowershop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.335293,
+        "longitude": 22.923506
+      }
+    },
+    "location": {
+      "address": "6χλ.βολου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "6χλ.βολου, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Άνθη-φυτά",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51ea7b5e498e66e8c0106fee",
+    "categories": [
+      {
+        "id": 17082,
+        "name": "Furniture and Home Store",
+        "short_name": "Furniture and Home Store",
+        "plural_name": "Furniture and Home Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/furniture_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.339233,
+        "longitude": 22.923969
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Μέταλλο και ξύλο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4e2b0d4bae605c533a338cac",
+    "categories": [
+      {
+        "id": 12101,
+        "name": "Church",
+        "short_name": "Church",
+        "plural_name": "Churches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332305,
+        "longitude": 22.926496
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Προφήτης Ηλίας Αλυκών",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "76688dee6da84d2bb26a51fb",
+    "categories": [
+      {
+        "id": 11163,
+        "name": "Shipping, Freight, and Material Transportation Service",
+        "short_name": "Shipping Service",
+        "plural_name": "Shipping, Freight, and Material Transportation Services",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332756,
+        "longitude": 22.929457
+      }
+    },
+    "location": {
+      "address": "Αλόης 179Γ",
+      "country": "GR",
+      "formatted_address": "Αλόης 179Γ, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Frago Cargo (Φραγγοσ Νικολαοσ)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50c33422e4b0fb7143323a74",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.332876,
+        "longitude": 22.929374
+      }
+    },
+    "location": {
+      "address": "Βάκχου 4",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βάκχου 4, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Αλφα Ωμεγα Express Market",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

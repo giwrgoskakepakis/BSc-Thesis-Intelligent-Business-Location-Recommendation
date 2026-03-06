@@ -1,0 +1,273 @@
+[
+  {
+    "fsq_id": "4e8da18ab8f71a700b340f73",
+    "categories": [
+      {
+        "id": 16003,
+        "name": "Beach",
+        "short_name": "Beach",
+        "plural_name": "Beaches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.348287,
+        "longitude": 22.969601
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Plakes (Πλάκες)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50296726e4b0a09e5775c66e",
+    "categories": [
+      {
+        "id": 13006,
+        "name": "Beer Bar",
+        "short_name": "Beer Bar",
+        "plural_name": "Beer Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.350535,
+        "longitude": 22.962605
+      }
+    },
+    "location": {
+      "address": "Ακτή Αναύρου",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Ακτή Αναύρου, 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Αλμπύρα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "57d58e50498e3a97a9c43eb3",
+    "categories": [
+      {
+        "id": 12101,
+        "name": "Church",
+        "short_name": "Church",
+        "plural_name": "Churches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.349772,
+        "longitude": 22.966919
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "382 22 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 22",
+      "region": "Μαγνησία"
+    },
+    "name": "Church of Virgin Goritsa - Panagia Tripa (Ιερό Προσκύνημα Παναγίας Γορίτσας - Παναγία Τρύπα)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4e3696c2fa7656ba317c19bd",
+    "categories": [
+      {
+        "id": 16003,
+        "name": "Beach",
+        "short_name": "Beach",
+        "plural_name": "Beaches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.350509,
+        "longitude": 22.962294
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Anavros Beach (Παραλία Αναύρου)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5765b991498e66214c248800",
+    "categories": [
+      {
+        "id": 13003,
+        "name": "Bar",
+        "short_name": "Bar",
+        "plural_name": "Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13065,
+        "name": "Restaurant",
+        "short_name": "Restaurant",
+        "plural_name": "Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.349865,
+        "longitude": 22.965966
+      }
+    },
+    "location": {
+      "address": "Παραλία ΝΟΒ",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παραλία ΝΟΒ, 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "La Nave",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "51bcc2af498e5023e43623ff",
+    "categories": [
+      {
+        "id": 12097,
+        "name": "Social Club",
+        "short_name": "Social Club",
+        "plural_name": "Social Clubs",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.349872,
+        "longitude": 22.964941
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Βάση Ναυτοπροσκόπων",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "777fe41f5c6b4e9db4b71e34",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.347898,
+        "longitude": 22.96102
+      }
+    },
+    "location": {
+      "address": "Ιωλκού & Αχιλλοπούλου",
+      "country": "GR",
+      "formatted_address": "Ιωλκού & Αχιλλοπούλου, 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Γαλαξιασ - Πεντε",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "76dd0dc60a304969bf57a3de",
+    "categories": [
+      {
+        "id": 13035,
+        "name": "Coffee Shop",
+        "short_name": "Coffee Shop",
+        "plural_name": "Coffee Shops",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.347898,
+        "longitude": 22.96102
+      }
+    },
+    "location": {
+      "address": "Ιάσονος 98 Βόλος",
+      "country": "GR",
+      "formatted_address": "Ιάσονος 98 Βόλος, 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Ανιτσασ Αριστειδησ Σ.",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

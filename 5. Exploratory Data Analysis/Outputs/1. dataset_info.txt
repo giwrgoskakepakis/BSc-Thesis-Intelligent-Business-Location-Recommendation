@@ -1,0 +1,49 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3882 entries, 0 to 3881
+Data columns (total 42 columns):
+ #   Column                          Non-Null Count  Dtype  
+---  ------                          --------------  -----  
+ 0   Name                            3882 non-null   object 
+ 1   Category                        3882 non-null   object 
+ 2   Latitude                        3882 non-null   float64
+ 3   Longitude                       3882 non-null   float64
+ 4   Address                         3882 non-null   object 
+ 5   Country                         3882 non-null   object 
+ 6   City                            3882 non-null   object 
+ 7   Postal Code                     3882 non-null   int64  
+ 8   Rating                          228 non-null    float64
+ 9   Reviews                         206 non-null    float64
+ 10  Source                          3882 non-null   object 
+ 11  Description                     191 non-null    object 
+ 12  NACE Code                       3882 non-null   float64
+ 13  NACE Description (EN)           3882 non-null   object 
+ 14  Municipal_Community             3882 non-null   object 
+ 15  Neighborhood                    3882 non-null   object 
+ 16  ΠΕΡΙΦΕΡΕΙΑΚΗ ΕΝΟΤΗΤΑ            3882 non-null   object 
+ 17  ΔΗΜΟΣ                           3882 non-null   object 
+ 18  ΔΗΜΟΤΙΚΗ ΕΝΟΤΗΤΑ                3882 non-null   object 
+ 19  Population                      3882 non-null   int64  
+ 20  Άγαμοι_pct                      3882 non-null   float64
+ 21  Έγγαμοι_pct                     3882 non-null   float64
+ 22  Χήροι_pct                       3882 non-null   float64
+ 23  Διαζευγμένοι_pct                3882 non-null   float64
+ 24  age_0_14_pct                    3882 non-null   float64
+ 25  age_15_64_pct                   3882 non-null   float64
+ 26  age_65_plus_pct                 3882 non-null   float64
+ 27  low_education_pct               3882 non-null   float64
+ 28  medium_education_pct            3882 non-null   float64
+ 29  high_education_pct              3882 non-null   float64
+ 30  unemployment_rate               3882 non-null   float64
+ 31  labor_force_participation_rate  3882 non-null   float64
+ 32  primary_sector_pct              3882 non-null   float64
+ 33  secondary_sector_pct            3882 non-null   float64
+ 34  tertiary_sector_pct             3882 non-null   float64
+ 35  Area_km2                        3882 non-null   float64
+ 36  Neighborhood_Area_km2           3882 non-null   float64
+ 37  distance_to_volos_center_km     3882 non-null   float64
+ 38  distance_to_volos_port_km       3882 non-null   float64
+ 39  dist_to_main_road_km            3882 non-null   float64
+ 40  dist_to_bus_stop_km             3882 non-null   float64
+ 41  dist_to_university_km           3882 non-null   float64
+dtypes: float64(27), int64(2), object(13)
+memory usage: 1.2+ MB

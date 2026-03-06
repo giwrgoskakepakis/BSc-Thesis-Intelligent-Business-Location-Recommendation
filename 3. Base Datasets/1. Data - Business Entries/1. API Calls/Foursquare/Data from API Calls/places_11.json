@@ -1,0 +1,1488 @@
+[
+  {
+    "fsq_id": "527f7b9c11d269f34b711fab",
+    "categories": [
+      {
+        "id": 13049,
+        "name": "Diner",
+        "short_name": "Diner",
+        "plural_name": "Diners",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.36129,
+        "longitude": 22.934397
+      }
+    },
+    "location": {
+      "address": "Αλμυρού 9",
+      "country": "GR",
+      "cross_street": "Λαχανά",
+      "formatted_address": "Αλμυρού 9 (Λαχανά), Βόλος",
+      "locality": "Βόλος"
+    },
+    "name": "Ελλάδας Εικόνες",
+    "related_places": {
+      "children": []
+    },
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4efa0ecb77c8e88f4a03b264",
+    "categories": [
+      {
+        "id": 13183,
+        "name": "Magirio",
+        "short_name": "Magirio",
+        "plural_name": "Magirios",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.361323,
+        "longitude": 22.936233
+      },
+      "main": {
+        "latitude": 39.361246,
+        "longitude": 22.936224
+      },
+      "roof": {
+        "latitude": 39.361246,
+        "longitude": 22.936224
+      }
+    },
+    "location": {
+      "address": "Αγχιάλου 6",
+      "country": "GR",
+      "cross_street": "Πυρασσού",
+      "formatted_address": "Αγχιάλου 6 (Πυρασσού), Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Το χοντρό μπιζέλι",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "541f05d8498ee14d9f929f41",
+    "categories": [
+      {
+        "id": 18008,
+        "name": "Basketball Court",
+        "short_name": "Basketball Court",
+        "plural_name": "Basketball Courts",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/basketballcourt_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.359621,
+        "longitude": 22.92965
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Neapolis Basketball Court",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "58dbb915a6118c29f6591c3b",
+    "categories": [
+      {
+        "id": 13185,
+        "name": "Modern Greek Restaurant",
+        "short_name": "Modern Greek Restaurants",
+        "plural_name": "Modern Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.362038,
+        "longitude": 22.936012
+      }
+    },
+    "location": {
+      "address": "Γιαννιτσών-Λαχανά",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Γιαννιτσών-Λαχανά, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Brighton (Μπράιτον)",
+    "related_places": {
+      "parent": {
+        "fsq_id": "57441d01498e69c967724330",
+        "categories": [
+          {
+            "id": 10030,
+            "name": "History Museum",
+            "short_name": "History Museum",
+            "plural_name": "History Museums",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "name": "Μουσειο Πλινθοκεραμοποιιασ Ν. Και Σ. Τσαλαπατα Ιδρυματοσ Πολιτιστικου Ομιλου Πειραιωσ"
+      }
+    },
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50d852efe4b0487c41fccafc",
+    "categories": [
+      {
+        "id": 13190,
+        "name": "Tsipouro Restaurant",
+        "short_name": "Tsipouro Restaurants",
+        "plural_name": "Tsipouro Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.362256,
+        "longitude": 22.936524
+      },
+      "main": {
+        "latitude": 39.362413,
+        "longitude": 22.936459
+      }
+    },
+    "location": {
+      "address": "Κροκίου 48",
+      "country": "GR",
+      "cross_street": "Φοίβης",
+      "formatted_address": "Κροκίου 48 (Φοίβης), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Φιλαράκι",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4d69638f792da0904e6605ae",
+    "categories": [
+      {
+        "id": 13009,
+        "name": "Cocktail Bar",
+        "short_name": "Cocktail",
+        "plural_name": "Cocktail Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.36143,
+        "longitude": 22.935193
+      }
+    },
+    "location": {
+      "address": "Αλμυρού",
+      "country": "GR",
+      "cross_street": "Μανωλάκη",
+      "formatted_address": "Αλμυρού (Μανωλάκη), 385 00 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "385 00",
+      "region": "Μαγνησία"
+    },
+    "name": "Πασατέμπο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "519800de498e73077207b749",
+    "categories": [
+      {
+        "id": 10032,
+        "name": "Night Club",
+        "short_name": "Night Club",
+        "plural_name": "Night Clubs",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.360821,
+        "longitude": 22.934612
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "Lachana",
+      "formatted_address": "Lachana, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "White Poolside Dreams",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ed457a8490137002c58d3f7",
+    "categories": [
+      {
+        "id": 13002,
+        "name": "Bakery",
+        "short_name": "Bakery",
+        "plural_name": "Bakeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.362417,
+        "longitude": 22.936718
+      }
+    },
+    "location": {
+      "address": "Λεωφ. Γρηγορίου Λαμπράκη",
+      "country": "GR",
+      "cross_street": "Αλμυρού",
+      "formatted_address": "Λεωφ. Γρηγορίου Λαμπράκη (Αλμυρού), Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Παλαιός Φούρνος",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "508ee4afe4b0d3ece72db97a",
+    "categories": [
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.362758,
+        "longitude": 22.936776
+      },
+      "main": {
+        "latitude": 39.362874,
+        "longitude": 22.936749
+      }
+    },
+    "location": {
+      "address": "Μελούνας 6",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Μελούνας 6, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Στάφυλος",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "56c6c2df498e5a2fda93797d",
+    "categories": [
+      {
+        "id": 13034,
+        "name": "Café",
+        "short_name": "Café",
+        "plural_name": "Cafés",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.360339,
+        "longitude": 22.932931
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Coffee Lab",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4d65146b072a6ea84314f94d",
+    "categories": [
+      {
+        "id": 13186,
+        "name": "Ouzeri",
+        "short_name": "Ouzeries",
+        "plural_name": "Ouzeries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.361832,
+        "longitude": 22.935269
+      },
+      "main": {
+        "latitude": 39.361802,
+        "longitude": 22.935224
+      }
+    },
+    "location": {
+      "address": "Παπακυριαζή 43-45",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Παπακυριαζή 43-45, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Γιάννα & Νίκος",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f2da57ae4b0bd78b71696a5",
+    "categories": [
+      {
+        "id": 13190,
+        "name": "Tsipouro Restaurant",
+        "short_name": "Tsipouro Restaurants",
+        "plural_name": "Tsipouro Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.361915,
+        "longitude": 22.935592
+      }
+    },
+    "location": {
+      "address": "Κροκίου 15",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Κροκίου 15, Μαγνησία, Μαγνησία",
+      "locality": "Μαγνησία",
+      "region": "Μαγνησία"
+    },
+    "name": "Η Γιώτα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "504a58b2e4b037e084ef4d72",
+    "categories": [
+      {
+        "id": 13026,
+        "name": "BBQ Joint",
+        "short_name": "BBQ",
+        "plural_name": "BBQ Joints",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13181,
+        "name": "Grilled Meat Restaurant",
+        "short_name": "Grilled Meat Restaurants",
+        "plural_name": "Grilled Meat Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.362222,
+        "longitude": 22.936271
+      },
+      "main": {
+        "latitude": 39.362128,
+        "longitude": 22.936133
+      }
+    },
+    "location": {
+      "address": "Μητροπολίτου Γρηγορίου 29-31",
+      "country": "GR",
+      "cross_street": "Κροκίου",
+      "formatted_address": "Μητροπολίτου Γρηγορίου 29-31 (Κροκίου), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μπριζολάδικο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "527c4a4f11d21a519baaaa6c",
+    "categories": [
+      {
+        "id": 10039,
+        "name": "Music Venue",
+        "short_name": "Music Venue",
+        "plural_name": "Music Venues",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.36418,
+        "longitude": 22.931224
+      }
+    },
+    "location": {
+      "address": "Ζάχου - Βότση",
+      "country": "GR",
+      "cross_street": "Πολυχώρος Τσαλαπάτα",
+      "formatted_address": "Ζάχου - Βότση (Πολυχώρος Τσαλαπάτα), 383 33 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 33",
+      "region": "Μαγνησία"
+    },
+    "name": "Lab Art",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "e182d06951b74b3ac92cc49a",
+    "categories": [
+      {
+        "id": 17100,
+        "name": "Newsstand",
+        "short_name": "Newsstand",
+        "plural_name": "Newsstands",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/newsstand_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.355263,
+        "longitude": 22.925644
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 84",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 84, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μαγνησια",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "586197b28190793ef7d0591a",
+    "categories": [
+      {
+        "id": 13003,
+        "name": "Bar",
+        "short_name": "Bar",
+        "plural_name": "Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13049,
+        "name": "Diner",
+        "short_name": "Diner",
+        "plural_name": "Diners",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13185,
+        "name": "Modern Greek Restaurant",
+        "short_name": "Modern Greek Restaurants",
+        "plural_name": "Modern Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.36431,
+        "longitude": 22.931565
+      }
+    },
+    "location": {
+      "address": "Ζαχου - Γιαννιτσων",
+      "country": "GR",
+      "cross_street": "Γιαννιτσών",
+      "formatted_address": "Ζαχου - Γιαννιτσων (Γιαννιτσών), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Αίθριον - Ethrion Day&Night",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fae8f82e4b047f11d2ed95b",
+    "categories": [
+      {
+        "id": 13049,
+        "name": "Diner",
+        "short_name": "Diner",
+        "plural_name": "Diners",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.363071,
+        "longitude": 22.936106
+      },
+      "main": {
+        "latitude": 39.363245,
+        "longitude": 22.936052
+      }
+    },
+    "location": {
+      "address": "Σαρανταπόρου 39-41",
+      "country": "GR",
+      "cross_street": "Σαρανταπόρου",
+      "formatted_address": "Σαρανταπόρου 39-41 (Σαρανταπόρου), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Vegera (Βεγγέρα)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "56c0dab8cd101fc1b6c47485",
+    "categories": [
+      {
+        "id": 13026,
+        "name": "BBQ Joint",
+        "short_name": "BBQ",
+        "plural_name": "BBQ Joints",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13181,
+        "name": "Grilled Meat Restaurant",
+        "short_name": "Grilled Meat Restaurants",
+        "plural_name": "Grilled Meat Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363247,
+        "longitude": 22.936089
+      }
+    },
+    "location": {
+      "address": "Φερών 7",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Φερών 7, 384 45 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "384 45",
+      "region": "Μαγνησία"
+    },
+    "name": "Ψησταριά Βαρέλα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ea9a1b502d52c460a7e64f8",
+    "categories": [
+      {
+        "id": 13064,
+        "name": "Pizzeria",
+        "short_name": "Pizza",
+        "plural_name": "Pizzerias",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13236,
+        "name": "Italian Restaurant",
+        "short_name": "Italian",
+        "plural_name": "Italian Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.363484,
+        "longitude": 22.936146
+      },
+      "main": {
+        "latitude": 39.363422,
+        "longitude": 22.936016
+      }
+    },
+    "location": {
+      "address": "Φερών 9",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Φερών 9, 383 34 Βόλος",
+      "locality": "Βόλος",
+      "postcode": "383 34"
+    },
+    "name": "Sogno Di San",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "53ee49a1498efa3285d1a181",
+    "categories": [
+      {
+        "id": 12101,
+        "name": "Church",
+        "short_name": "Church",
+        "plural_name": "Churches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.361022,
+        "longitude": 22.933222
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Άγιος Απόστολος ο Νέος",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "587f50d633a24538c5e7ac20",
+    "categories": [
+      {
+        "id": 17000,
+        "name": "Retail",
+        "short_name": "Retail",
+        "plural_name": "Retail",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.361233,
+        "longitude": 22.932675
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Mega Sales",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4fbcfb10e4b04d6c37ea68a9",
+    "categories": [
+      {
+        "id": 10051,
+        "name": "Stadium",
+        "short_name": "Stadium",
+        "plural_name": "Stadiums",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363607,
+        "longitude": 22.932082
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Γήπεδο Μαγνησιακού",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "f0157a77311d4760ac0b034c",
+    "categories": [
+      {
+        "id": 17028,
+        "name": "Construction Supplies Store",
+        "short_name": "Construction",
+        "plural_name": "Construction Supplies Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/realestate_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.360293,
+        "longitude": 22.935414
+      }
+    },
+    "location": {
+      "address": "Ελασσόνος 27",
+      "country": "GR",
+      "formatted_address": "Ελασσόνος 27, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Εργαλεια Κανελλησ - Κανελλησ Δ . Και Σβεντζουρησ Β. Οε",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "531a0506498e0d0213e49af6",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.361185,
+        "longitude": 22.933472
+      }
+    },
+    "location": {
+      "address": "Λαμπράκη",
+      "address_extended": "Αλμυρού",
+      "country": "GR",
+      "cross_street": "Αλμυρού",
+      "formatted_address": "Λαμπράκη (Αλμυρού), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Σούπερ Μάρκετ Γαλαξίας",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4ee98be15c5c0575fa817079",
+    "categories": [
+      {
+        "id": 12059,
+        "name": "High School",
+        "short_name": "High School",
+        "plural_name": "High Schools",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/school_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.359933,
+        "longitude": 22.926386
+      },
+      "roof": {
+        "latitude": 39.359933,
+        "longitude": 22.926386
+      }
+    },
+    "location": {
+      "address": "Καλέργη",
+      "country": "GR",
+      "cross_street": "Κορδικτώνος",
+      "formatted_address": "Καλέργη (Κορδικτώνος), 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "4o Lukeio Volou",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "542ba91c498ea3c0fa87af80",
+    "categories": [
+      {
+        "id": 17096,
+        "name": "Miscellaneous Store",
+        "short_name": "Store",
+        "plural_name": "Miscellaneous Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.361362,
+        "longitude": 22.933662
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Magnesia Travel",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "d023237e55d8430108719024",
+    "categories": [
+      {
+        "id": 17011,
+        "name": "Car Parts and Accessories",
+        "short_name": "Car Part and Accessory",
+        "plural_name": "Car Parts and Accessories",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.358146,
+        "longitude": 22.924759
+      },
+      "main": {
+        "latitude": 39.35816,
+        "longitude": 22.924739
+      }
+    },
+    "location": {
+      "address": "Κορωνίου 4",
+      "country": "GR",
+      "formatted_address": "Κορωνίου 4, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Χαλιφασ Κωνσταντινοσ Κ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5491a3c3498e896501a62ca6",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.3612,
+        "longitude": 22.92773
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Δημοτικό Στάδιο Νεάπολης",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f26d85fe4b0d609c8ea413c",
+    "categories": [],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.360687,
+        "longitude": 22.926729
+      }
+    },
+    "location": {
+      "address": "Λεμεσσού",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Λεμεσσού, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Φροντιστήριο Αγγλικών Πέπη Τόμπρα",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "36393bcbc6774562d45eca85",
+    "categories": [
+      {
+        "id": 17057,
+        "name": "Food and Beverage Retail",
+        "short_name": "Food & Beverage",
+        "plural_name": "Food and Beverage Retail",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.356302,
+        "longitude": 22.923469
+      },
+      "main": {
+        "latitude": 39.35638,
+        "longitude": 22.92336
+      }
+    },
+    "location": {
+      "address": "Κορωνίου 20",
+      "country": "GR",
+      "formatted_address": "Κορωνίου 20, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Food Service Καρακατσανησ Α.Κ.- Καρακατσανησ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "502ab5fdf4634a5551a1bd93",
+    "categories": [
+      {
+        "id": 11087,
+        "name": "Heating, Ventilating and Air Conditioning Contractor",
+        "short_name": "Heating, Ventilating and Air Conditioning Contractor",
+        "plural_name": "Heating, Ventilating and Air Conditioning Contractors",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/hardware_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.362766,
+        "longitude": 22.929365
+      },
+      "main": {
+        "latitude": 39.362723,
+        "longitude": 22.929421
+      }
+    },
+    "location": {
+      "address": "Νεαπόλεως 27",
+      "country": "GR",
+      "formatted_address": "Νεαπόλεως 27, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "- Τσικακησ Ν Δημητριοσ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "cf606640bbdb419796513e21",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Κεντρική Λαχαναγορά Βόλος",
+      "country": "GR",
+      "formatted_address": "Κεντρική Λαχαναγορά Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Μπαλαμωτησ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "e4a229fef26845f2dc0f3123",
+    "categories": [
+      {
+        "id": 17006,
+        "name": "Car Dealership",
+        "short_name": "Car Dealer",
+        "plural_name": "Car Dealerships",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.351206,
+        "longitude": 22.926013
+      }
+    },
+    "location": {
+      "address": "Λεωφόρος Αθηνών 96 Βόλος",
+      "country": "GR",
+      "formatted_address": "Λεωφόρος Αθηνών 96 Βόλος, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Ford Αναστασιου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f3acb90e4b089d43c754263",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363414,
+        "longitude": 22.929196
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "Νεαπόλεως",
+      "formatted_address": "Νεαπόλεως, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Lidl",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5a74761d75eee42302d281bd",
+    "categories": [
+      {
+        "id": 13035,
+        "name": "Coffee Shop",
+        "short_name": "Coffee Shop",
+        "plural_name": "Coffee Shops",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.359222,
+        "longitude": 22.939114
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "383 34 Βόλου, Μαγνησία",
+      "locality": "Βόλου",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Buzz",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "524a66a1498ec8b44b56465f",
+    "categories": [
+      {
+        "id": 13035,
+        "name": "Coffee Shop",
+        "short_name": "Coffee Shop",
+        "plural_name": "Coffee Shops",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363738,
+        "longitude": 22.929671
+      }
+    },
+    "location": {
+      "address": "Λαρίσης 90",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Λαρίσης 90, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Bruno Coffee Stores",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "50ed6e32e4b06915b3c8d404",
+    "categories": [
+      {
+        "id": 17069,
+        "name": "Grocery Store",
+        "short_name": "Grocery Store",
+        "plural_name": "Grocery Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.352039,
+        "longitude": 22.922585
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "3Β Μαρκετ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "66044f976a4642e72fe5a36f",
+    "categories": [
+      {
+        "id": 17011,
+        "name": "Car Parts and Accessories",
+        "short_name": "Car Part and Accessory",
+        "plural_name": "Car Parts and Accessories",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/automotive_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.364242,
+        "longitude": 22.928538
+      }
+    },
+    "location": {
+      "address": "Λαρίσης 98Α",
+      "country": "GR",
+      "formatted_address": "Λαρίσης 98Α, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Ενεργειακη - Κουλοσουσασ Σ Βαϊοσ Εε",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "497e5533c7ca440f2c8f1b8a",
+    "categories": [
+      {
+        "id": 11155,
+        "name": "Renewable Energy Service",
+        "short_name": "Renewable Energy Service",
+        "plural_name": "Renewable Energy Services",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.364279,
+        "longitude": 22.928246
+      }
+    },
+    "location": {
+      "address": "Λαρίσης 102",
+      "country": "GR",
+      "formatted_address": "Λαρίσης 102, 383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Sunrise Photovoltaic Systems",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5b28d79fa89b5a003194c44e",
+    "categories": [
+      {
+        "id": 17102,
+        "name": "Office Supply Store",
+        "short_name": "Office Supplies",
+        "plural_name": "Office Supply Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/papergoods_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.363884,
+        "longitude": 22.926458
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Σδρόλιας",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "5c7aa7ef9e0d540039946520",
+    "categories": [
+      {
+        "id": 18037,
+        "name": "Paintball Field",
+        "short_name": "Paintball Field",
+        "plural_name": "Paintball Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.365055,
+        "longitude": 22.929678
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "383 34 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 34",
+      "region": "Μαγνησία"
+    },
+    "name": "Splat Paintball",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]

@@ -1,0 +1,481 @@
+[
+  {
+    "fsq_id": "4ef1f74477166617fd468b57",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.387271,
+        "longitude": 22.957744
+      }
+    },
+    "location": {
+      "address": "Νάξου",
+      "country": "GR",
+      "formatted_address": "Νάξου, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "5x5 Αγίας Παρασκευής",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f8c2b6ce4b005c393a81876",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.383071,
+        "longitude": 22.971134
+      },
+      "main": {
+        "latitude": 39.383154,
+        "longitude": 22.971028
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Νέα Ρέμβη",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f233fffe4b063d4ff4c5cbc",
+    "categories": [
+      {
+        "id": 13003,
+        "name": "Bar",
+        "short_name": "Bar",
+        "plural_name": "Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.377874,
+        "longitude": 22.962647
+      },
+      "roof": {
+        "latitude": 39.377874,
+        "longitude": 22.962647
+      }
+    },
+    "location": {
+      "address": "Ιωλκού",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Ιωλκού, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Ελξις",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4d29a24055a8b60c1fa0d8c0",
+    "categories": [
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.377503,
+        "longitude": 22.962271
+      },
+      "main": {
+        "latitude": 39.377653,
+        "longitude": 22.96219
+      },
+      "roof": {
+        "latitude": 39.377653,
+        "longitude": 22.96219
+      }
+    },
+    "location": {
+      "address": "Ιωλκού 317",
+      "country": "GR",
+      "cross_street": "Αγίας Παρασκευής",
+      "formatted_address": "Ιωλκού 317 (Αγίας Παρασκευής), 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Το Αδιέξοδο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "517293fce4b046aba0353a42",
+    "categories": [
+      {
+        "id": 18064,
+        "name": "Soccer Field",
+        "short_name": "Soccer Field",
+        "plural_name": "Soccer Fields",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384443,
+        "longitude": 22.953511
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Σαρακηνός FC Arena",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "b8ae3b8531f646059c6822ee",
+    "categories": [],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.380297,
+        "longitude": 22.966202
+      }
+    },
+    "location": {
+      "address": "Ιωλκού 406",
+      "country": "GR",
+      "formatted_address": "Ιωλκού 406, Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "region": "Μαγνησία"
+    },
+    "name": "Ασκληπιειον Ανω Βολου - Α. Μπισακοσ - Α. Κυριακοσ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "0919900b39264179afa058c7",
+    "categories": [
+      {
+        "id": 17026,
+        "name": "Mobile Phone Store",
+        "short_name": "Mobile Phones",
+        "plural_name": "Mobile Phone Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mobilephoneshop_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.380735,
+        "longitude": 22.967405
+      }
+    },
+    "location": {
+      "address": "Ιάσονος 58",
+      "country": "GR",
+      "formatted_address": "Ιάσονος 58, 383 33 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "383 33",
+      "region": "Μαγνησία"
+    },
+    "name": "Κωτσοβολοσ - Βολοσ",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "4f8a9dfce4b0202c0750cbe9",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "drop_off": {
+        "latitude": 39.380424,
+        "longitude": 22.966005
+      },
+      "main": {
+        "latitude": 39.380596,
+        "longitude": 22.965993
+      }
+    },
+    "location": {
+      "address": "Ιωλκού 411",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Ιωλκού 411, Μαγνησία, Μαγνησία",
+      "locality": "Μαγνησία",
+      "region": "Μαγνησία"
+    },
+    "name": "Καστέλι",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "53947778498ea18b1c99efa8",
+    "categories": [
+      {
+        "id": 13003,
+        "name": "Bar",
+        "short_name": "Bar",
+        "plural_name": "Bars",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13034,
+        "name": "Café",
+        "short_name": "Café",
+        "plural_name": "Cafés",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.382277,
+        "longitude": 22.969503
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Mylos Poolside",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "556e0a7f498e81ba4f9802d1",
+    "categories": [
+      {
+        "id": 13189,
+        "name": "Taverna",
+        "short_name": "Tavernas",
+        "plural_name": "Tavernas",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13383,
+        "name": "Steakhouse",
+        "short_name": "Steakhouse",
+        "plural_name": "Steakhouses",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.38086,
+        "longitude": 22.969264
+      }
+    },
+    "location": {
+      "address": "Ιωλκού 426",
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "Ιωλκού 426, 382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Στα Περιξ / Sta Perix",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "53510104498e6a91665e65f6",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.380714,
+        "longitude": 22.969222
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": ""
+    },
+    "name": "Paradosiako Kafeneio",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "54dcbdc4498e06e8070de98d",
+    "categories": [
+      {
+        "id": 17076,
+        "name": "Liquor Store",
+        "short_name": "Liquor Store",
+        "plural_name": "Liquor Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_liquor_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.37802,
+        "longitude": 22.963107
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "382 21 Βόλος, Μαγνησία",
+      "locality": "Βόλος",
+      "postcode": "382 21",
+      "region": "Μαγνησία"
+    },
+    "name": "Nihteri (Νυχτέρι)",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "635c3dddbea8b02115eafe11",
+    "categories": [
+      {
+        "id": 13177,
+        "name": "Greek Restaurant",
+        "short_name": "Greek",
+        "plural_name": "Greek Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/greek_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.384149,
+        "longitude": 22.972195
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "385 00",
+      "postcode": "385 00"
+    },
+    "name": "Μπρουσκο",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  },
+  {
+    "fsq_id": "536cac4e498e5726c2ad869c",
+    "categories": [
+      {
+        "id": 12009,
+        "name": "Education",
+        "short_name": "Education",
+        "plural_name": "Education",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/school_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [],
+    "geocodes": {
+      "main": {
+        "latitude": 39.383123,
+        "longitude": 22.953035
+      },
+      "roof": {
+        "latitude": 39.383123,
+        "longitude": 22.953035
+      }
+    },
+    "location": {
+      "country": "GR",
+      "cross_street": "",
+      "formatted_address": "385 00",
+      "postcode": "385 00"
+    },
+    "name": "30ο Νηπιαγωγείο βόλου",
+    "related_places": {},
+    "timezone": "Europe/Athens"
+  }
+]
