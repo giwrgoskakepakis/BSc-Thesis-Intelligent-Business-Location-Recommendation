@@ -1,0 +1,1 @@
+This folder contains the literature review that was completed in the previous semester as a 'special project'
