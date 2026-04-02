@@ -1,0 +1,58 @@
+\chapter{Introduction}
+\label{chap1}
+
+
+The selection of a business location is one of the most critical decisions that an entrepreneur must make, since it determines various parameters that greatly influence its growth, sustainability, and overall success. The location of an enterprise is directly connected to the proximity to points of interest, accessibility, competitive landscape, and demographic and socio-economic characteristics of the population. In addition, a potential relocation requires prohibitive financial costs and entails the risks of loss of the existing customer base, making it practically irreversible. As a result, choosing the optimal business location becomes a matter of significant importance.
+
+  
+
+%==================================================
+%==================================================
+%==================================================
+\section{Problem Definition and Thesis Scope}
+
+
+The selection of the optimal business location plays a crucial role for every enterprise, as it is indirectly responsible for many characteristics that influence the probability of its success. As mentioned above, choosing a location is responsible for the competitor density, distance from important places like transport stops, highways, or universities, and various other influential factors that need to be carefully examined. Since relocating a business is a process every entrepreneur aims to avoid, we treat it as a one-time decision. Therefore, it is of significant importance to make this decision wisely, taking into account multiple aspects and factors.
+
+Spatial data, such as demographic, economic, and geographic information, have become increasingly available through open data sources such as government statistics. Research has consistently shown that integrating spatial data analysis in business location selection improves outcomes by providing helpful insights from novel perspectives. However, most approaches that utilize spatial data for optimal location selection focus on manual rule-based methods that often fail to capture more complex underlying patterns to extract meaningful conclusions.
+
+Simultaneously, the emergence of machine learning, and Large Language Models and Generative AI in particular, has resulted in state-of-the-art performance in many applications. This groundbreaking technology manages to capture non-linear relationships and achieve better performance than rule-based models. One of the most important advantages of the field lies in its adaptability, as ML algorithms can be applied to various kinds of datasets to specialize in specific domains. 
+
+The core idea of this thesis is to merge spatial data with state-of-the-art machine learning models, in order to leverage the adaptability of ML and the valuable insights of spatial data to enhance business location recommendation. To the best of our knowledge, limited research has focused on integrating the two fields. Since Generative AI tends to outperform traditional algorithms in the majority of its applications, we aim to investigate whether it can improve this task as well. The development of the final system will consist of handling heterogeneous spatial datasets, applying and comparing two cutting-edge LLM-based methods, and focusing on providing recommendations supported by justifications.
+
+
+
+%==================================================
+%==================================================
+%==================================================
+\section{Contribution}
+
+This thesis makes several contributions to the field of optimal business location recommendation by utilizing spatial data in combination with state-of-the-art Generative AI models. They can be summarized as follows:
+
+\begin{enumerate}
+    \item Constructed multiple datasets for the region of Magnesia (Volos, Greece) that combine business records with gepgraphic, economic, and demographic, information, on the level of neighborhood and municipal community.
+    \item Implemented and compared two LLM-based approaches for business location recommendation, in particular: fine-tuning a pre-trained LLM and designing a Retrieval-Augmented Generation (RAG) system.
+    \item Focused on providing explainability about the recommendations, by identifying the most important characteristics of each candidate, and using their comparison with the all candidates as justifications. 
+    \item Integrated both algorithms into a chatbot application, enabling interactive conversations that store user preferences and take them into account while providing recommendations
+\end{enumerate}
+
+
+%==================================================
+%==================================================
+%==================================================
+\section{Thesis Overview}
+
+This thesis is structured in chapters, each focusing on a specific part of the study. The chapters are structured as follows:
+
+\begin{itemize}
+    \item \textbf{Chapter 2: Literature Review / Background} - This chapter reviews the key foundations of this thesis, such as merging business location recommendation with GIS data, NACE business classification, and methods of implementing the fine-tuning and RAG systems.
+
+    \item \textbf{Chapter 3: Data Collection and Preprocessing} - This chapter examines the process of collecting and processing information from heterogeneous spatial dataset sources, and analysing the three constructed datasets in order to create proxy ground truths.
+
+    \item \textbf{Chapter 4: Methodology / System Implementation} - This chapter examines in detail the workflow of the modeling approaches used, such as the construction of the fine-tuning dataset and the LLM training, the creation of neighborhood descriptions used in RAG, the inference process of both approaches, and their integration in the chatbot application.
+
+    \item \textbf{Chapter 5: Experiments and Results} - This chapter focuses on the evaluation and comparison of the fine-tuned LLM and Retrieval-Augmented Generation systems
+
+    \item \textbf{Chapter 6: Conclusions and Discussion} This chapter reviews the results of the thesis, extract the final conclusions and mentions potential future directions
+\end{itemize}
+

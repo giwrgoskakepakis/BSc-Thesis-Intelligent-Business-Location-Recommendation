@@ -1,0 +1,100 @@
+\chapter{Fine-tuned LLM and Chatbot}
+
+This appendix contains information about the workflow of fine-tuning an LLM to specialize in suggesting optimal business locations, and its transformation to a chatobt application.
+
+
+%===================================
+\section{Fixed Features of Fine-Tuning Dataset}
+
+During the fine-tuning dataset construction, a proportion of the following features will always be selected as justification, regardless of their SHAP importance.
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|M{10cm}|}
+        \hline
+        \textbf{Fixed Features} \\ \hline
+        "Neighborhood\_Area\_km2" \\ \hline
+        "distance\_to\_volos\_center\_km" \\ \hline
+        "distance\_to\_volos\_port\_km" \\ \hline
+        "dist\_to\_main\_road\_km" \\ \hline
+        "dist\_to\_bus\_stop\_km" \\ \hline
+        "dist\_to\_university\_km" \\ \hline
+        "Population" \\ \hline
+    \end{tabular}
+    \caption{Fixed Fine-Tuning Features}
+    \label{tab:fixed_features}
+\end{table}
+
+
+
+%===================================
+\section{Training Configuration}
+
+Below, we present the detailed description of the configuration parameters chosen to perform the LLM fine-tuning.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Fine-tuning configuration of the QLoRA setup.}
+    \label{tab:finetune_config}
+    \begin{tabular}{ll}
+    \hline
+    \textbf{Component} & \textbf{Configuration} \\
+    \hline
+    \multicolumn{2}{l}{\textit{Quantization (bitsandbytes)}} \\
+    Weight precision & 4-bit (NF4) \\
+    Compute dtype & FP16 \\
+    Double quantization & Enabled \\
+    Base model & \texttt{mistralai/Mistral-7B-Instruct-v0.2} \\
+    \hline
+    \multicolumn{2}{l}{\textit{LoRA adapters}} \\
+    Rank ($r$) & 16 \\
+    Scaling factor ($\alpha$) & 64 \\
+    Dropout & 0.05 \\
+    Bias & None \\
+    Task type & Causal LM \\
+    Trainable parameters & $\sim$6.8M ($\approx$0.18\% of total) \\
+    \hline
+    \multicolumn{2}{l}{\textit{Training arguments}} \\
+    Batch size (per device) & 2 \\
+    Gradient accumulation & 4 (effective batch size = 8) \\
+    Learning rate & 2e-5 \\
+    Optimizer & Paged AdamW (32-bit) \\
+    LR scheduler & Cosine \\
+    Warmup steps & 10 \\
+    Epochs & 3 (with further runs at 5 and 8) \\
+    Precision & bf16 \\
+    Logging steps & 25 \\
+    Checkpointing & Save every 100 steps (keep max 2) \\
+    Gradient checkpointing & Enabled \\
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+%===================================
+\section{Custom CSS \& HTML Messages}
+
+Below, we demonstrate the custom CSS/HTML templates used for the user and assistant messages.
+
+\begin{lstlisting}[language=Python, caption={Rendering User Messages}, label={lst:render_user}]
+
+def render_user_message(message):
+    return f"""
+    <div style="display: flex; justify-content: flex-end;">
+        <div style="background-color:#D2E3FC; border-radius:10px; padding:10px 15px; margin:8px 0; max-width:80%; text-align:left;">
+            <b>You:</b><br>{message}
+        </div>
+    </div>
+    """
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption={Rendering Assistant Messages}, label={lst:render_assistant}]
+
+def render_assistant_message(message):
+    return f"""
+    <div style="background-color:#F1F0F0; border-radius:10px; padding:10px 15px; margin:8px 0; width:fit-content; max-width:80%;">
+        <b>Assistant:</b><br>{message}
+    </div>
+    """
+\end{lstlisting}

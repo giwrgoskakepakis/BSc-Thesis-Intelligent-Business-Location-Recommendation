@@ -1,0 +1,179 @@
+\chapter{Evaluation of Approaches}
+
+This appendix contains information about the evaluation of the two approaches. We show analytically the calculated metric values.
+
+
+%===================================
+\section{Fine-Tuned LLM Results}
+
+The following table demonstrates the calculated values of the evaluation metrics for the fine-tuned LLM approach.
+
+
+\begin{table}[h!]
+    \centering
+    \caption{Evaluation metrics across different training epochs}
+    \label{tab:results_ft}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lcccccc}
+    \hline
+    \textbf{Epochs} & \textbf{BERT Precision} & \textbf{BERT Recall} & \textbf{BERT F1} & \textbf{Match@3} & \textbf{Precision@3} & \textbf{Recall@3} \\
+    \hline
+    3 Epochs & 0.9229 & 0.9133 & 0.9181 & 0.7862 & 0.3145 & 0.3145 \\
+    5 Epochs & 0.9228 & 0.9202 & 0.9215 & 0.7799 & 0.3187 & 0.3187 \\
+    8 Epochs & 0.9188 & 0.9179 & 0.9183 & 0.6981 & 0.2851 & 0.2851 \\
+    \hline
+    \end{tabular}%
+    }
+\end{table}
+
+
+
+%===================================
+\section{RAG Pipeline Results}
+
+The following table demonstrates the calculated values of the evaluation metrics for the RAG pipeline approach.
+
+\begin{table}[h!]
+    \centering
+    \caption{Evaluation metrics across different approaches}
+    \label{tab:results_rag}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lcccccc}
+    \hline
+    \textbf{Attempts} & \textbf{BERT Precision} & \textbf{BERT Recall} & \textbf{BERT F1} & \textbf{Match@3} & \textbf{Precision@3} & \textbf{Recall@3} \\
+    \hline
+    10 Justifications & 0.8727 & 0.8381 & 0.8550 & 0.8302 & 0.3669 & 0.3669 \\
+    15 Justifications & 0.8648 & 0.8314 & 0.8477 & 0.7862 & 0.3548 & 0.3522 \\
+    20 Justifications & 0.8608 & 0.8290 & 0.8446 & 0.7107 & 0.2778 & 0.2893 \\
+    \hline
+    \end{tabular}%
+    }
+\end{table}
+
+
+%===================================
+\section{Approaches Comparison}
+
+The following table demonstrates the calculated values of the evaluation metrics for the fine-tuned LLM and RAG pipeline approaches. The best attempt of each system is selected. 
+
+
+%===================================
+\subsection{Semantic \& Recommendation Metrics}
+
+Below we compare the metrics that measure semantic similarity and recommendation accuracy.
+
+\begin{table}[h!]
+    \centering
+    \caption{Semantic \& Recommendation Metrics across both Approaches}
+    \label{tab:results_ft_rag}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lcccccc}
+    \hline
+    \textbf{Approach} & \textbf{BERT Precision} & \textbf{BERT Recall} & \textbf{BERT F1} & \textbf{Match@3} & \textbf{Precision@3} & \textbf{Recall@3} \\
+    \hline
+    Fine-Tuned LLM & 0.9228 & 0.9202 & 0.9215 & 0.7799 & 0.3187 & 0.3187 \\
+    RAG Pipeline & 0.8727 & 0.8381 & 0.8550 & 0.8302 & 0.3669 & 0.3669 \\
+    \hline
+    \end{tabular}%
+    }
+\end{table}
+
+%===================================
+\subsection{Efficiency Metrics}
+
+Below, we compare the metrics that measure the runtime duration of each approach.
+
+\begin{table}[h!]
+    \centering
+    \caption{Efficiency Metrics across both Approaches}
+    \label{tab:results_ft_rag_time}
+    \begin{tabular}{lcc}
+    \hline
+    \textbf{Approach} & \textbf{Average Time per Query (s)} & \textbf{Total Runtime (mm:ss)} \\
+    \hline
+    Fine-Tuned LLM & 16.00 & 12:31 \\
+    RAG Pipeline   & 37.56 & 42:24 \\
+    \hline
+    \end{tabular}
+\end{table}
+
+
+%===================================
+\subsection{Strengths and Limitations}
+
+Below, we provide a table that analytically describes the advantages and disadvantages of the two frameworks. 
+
+
+\begin{longtable}{>{\bfseries}p{0.20\textwidth} Y Y}
+    \caption{Fine-tuned LLM vs.\ RAG with Re-Ranking} \\
+    \label{tab:comparison_ft_rag}
+    \toprule
+    Aspect & Fine-tuned LLM & RAG with Re-Ranking Pipeline \\
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    Aspect & Fine-tuned LLM & RAG with Re-Ranking Pipeline \\
+    \midrule
+    \endhead
+    
+    \midrule
+    \multicolumn{3}{r}{\emph{Continued on next page}} \\
+    \midrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+    
+    Core Idea
+    & Train an LLM (Mistral-7B-Instruct with QLoRA) to directly generate top-3 business location recommendations with justifications.
+    & Use embeddings to retrieve relevant neighborhoods and re-rank based on similarity to the user query; LLM (Llama 3) only formats the final output. \\
+    
+    Strengths
+    & \begin{itemize}[leftmargin=*, nosep]
+        \item Fast inference after training (if GPU is utilized)
+        \item Learns domain-specific patterns
+        \item Can generalize to unseen but similar prompts
+      \end{itemize}
+    & \begin{itemize}[leftmargin=*, nosep]
+        \item Dynamic: no need to retrain when data updates
+        \item Reduces hallucinations (data fetched at runtime)
+        \item Easier to personalize results to user preferences
+      \end{itemize} \\
+    
+    Limitations
+    & \begin{itemize}[leftmargin=*, nosep]
+        \item Static: retraining required for new NACE classes or updated proxy truths
+        \item Risk of hallucination in justifications
+        \item High initial computational cost
+        \item One-to-one conversation does not fully utilize the GPU
+      \end{itemize}
+    & \begin{itemize}[leftmargin=*, nosep]
+        \item Slower inference (retrieval {+} embedding overhead)
+        \item Dependent on embedding quality
+        \item Requires additional infrastructure (vector DB / storage)
+      \end{itemize} \\
+    
+    Explainability
+    & Built-in through feature \& neighborhood justification (SHAP {+} percentile templates).
+    & Explainability derived from neighborhood descriptions (feature statistics \& contextual text). \\
+    
+    Adaptability
+    & Less flexible -- retraining needed when data or categories change.
+    & Highly flexible -- can add new businesses, neighborhoods, or user constraints without retraining. \\
+    
+    Computational Resources
+    & Requires HPC (A100 GPU) for fine-tuning; optimized via QLoRA (0.18\% trainable params).
+    & Moderate GPU/CPU needed for embeddings and inference; feasible to run locally (quantized models). \\
+    
+    Personalization
+    & Limited -- produces 3 static recommendations per NACE class.
+    & Strong -- query-specific re-ranking allows user-tailored recommendations. \\
+    
+    Best Use Case
+    & When fast inference on fixed, stable data with concurrent queries or batched workloads is needed, and compute resources are available.
+    & When frequent updates, user-specific preferences, and reduced hallucinations are priorities. \\
+    
+\end{longtable}
+
+

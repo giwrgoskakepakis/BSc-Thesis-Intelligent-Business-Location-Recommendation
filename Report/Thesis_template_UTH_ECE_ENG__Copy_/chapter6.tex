@@ -1,0 +1,41 @@
+\chapter{Conclusions and Discussion}
+\label{chap6}
+
+
+
+In this chapter, we provide a comprehensive review of the results of this thesis and draw our final conclusions about the bigger picture. We also mention several future directions that can potentially enhance the application even more.
+
+
+%==================================================
+%==================================================
+%==================================================
+\section{Summary of Key Findings}
+
+This thesis began by constructing the three main datasets of the project. This process involved merging heterogeneous data structures from multiple sources, extracting additional information from software applications, and combining and analyzing the final dataset, which joins business records with geographical, economic, and demographic characteristics. This dataset provided the basis for creating proxy ground truths to evaluate business location suitability.
+
+Two state-of-the-art frameworks were introduced and developed. Firstly, a fine-tuned LLM was trained on a constructed domain-specific dataset. Next, a RAG pipeline that required the creation of descriptions of neighborhoods for the retrieval was implemented. The fine-tuning dataset and neighborhood descriptions provided justifications about the recommendations, created through the use of explainable AI methods. Both approaches were evaluated on the same data with the same metrics.
+
+To transform the LLM-based systems into user-friendly frameworks that support personalization, a chatbot application that offers the option for both predictive systems was implemented. The two approaches acted as the application backend, which communicated with a user interface that stores and transfers the entire conversation history.
+
+Overall, the two approaches demonstrated a trade-off between efficiency and accuracy. While the fine-tuned LLM can easily generalize to unseen data efficiently and fully utilize the GPU resources during concurrent requests, the RAG system provides better adaptability, lowers hallucination risk, and enables dynamic memory updating without the need for re-training. Each approach is therefore suited to different deployment contexts. The user can select the backend system depending on the nature of the application.
+
+%==================================================
+%==================================================
+\section{Limitations}
+
+In the course of this project, several challenges were faced. First and foremost, the recommendations per NACE class are approximations that were estimated by ensembling three weaker approaches. If actual ground truths were available, the results of the recommendation system would be much more reliable and valuable. In addition, although we believe that the dataset used represents the business tendencies of the city, it is relatively small (less than 4.000 entries). A larger dataset could potentially lead to different, more realistic conclusions. Our hardware constraints also limit the potential system accuracy. Moreover, larger and better models, either generative for fine-tuning, or embedding encoder for retrieval, could improve the performance of the systems.
+
+
+%==================================================
+%==================================================
+\section{Future directions}
+
+To improve the recommendation system, there are multiple potential enhancements that could be explored in the future. Acquiring ground truths would be a fundamental improvement in order to escape from estimating the optimal locations and provide realistic recommendations. More base models could be explored for the fine-tuned LLM approach, potentially with more parameters. The model quality is also largely influenced by the fine-tuning dataset, which can be enhanced if more business data is gathered. Using more synthetic categories per NACE class to create a training dataset with more entries may also lead to a more domain-specific model. The fine-tuning dataset could also be improved through the use of prompt engineering, as is the case for the creation of the neighborhood descriptions used in RAG. The RAG pipeline could be improved if we explored different embedder models. In addition, since current embeddings are stored locally in files, techniques like chunking and utilizing vector databases could possibly allow the system to use larger neighborhood descriptions successfully. Finally, regarding the chatbot application, a database could be set up to store and retrieve past conversation sessions. In addition, the current structure uses one server for both approaches, which could be modified into multiple servers to make the application more modular and scalable.
+
+
+%==================================================
+%==================================================
+\section{Conclusions}
+
+
+This thesis focused on integrating spatial information such as economic, demographic, and geographical data with generative AI technologies like LLMs for optimal business recommendation. By comparing two cutting-edge algorithms -LLM fine-tuning and Retrieval-Augmented Generation- we identified complementary strengths and weaknesses that mirror potential use cases in real-world examples. We believe this thesis can serve as a foundation for further improving business recommendation by combining spatial information with state-of-the-art methodologies.

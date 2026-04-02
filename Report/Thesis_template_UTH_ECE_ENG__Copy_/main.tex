@@ -1,0 +1,229 @@
+%%
+% Είδος: διπλωματική στα αγγλικά
+\documentclass{uthece-thesis} 
+
+% Πακέτα και ορισμοί που τυχόν χρειάζονται, ανάλογα με το κείμενο της διπλωματικής
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage[hyphens]{url}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
+\usepackage{tikz}
+\usepackage{datetime}
+\usepackage{ifthen}
+\usepackage{hyperref} % Για ενεργά URLs
+
+\usepackage{pifont}     % For checkmarks
+\usepackage[table]{xcolor} % For coloring cells
+\usepackage{booktabs}
+
+\usepackage{longtable} % in your preamble
+\usepackage{array} % in the preamble
+\usepackage[most]{tcolorbox} % add this in your preamble
+\usepackage{listings}
+\usepackage{xcolor} % for colors
+% --- Preamble (once) ---
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}p{0.38\textwidth}}
+
+\usepackage{graphicx}
+\usepackage{placeins}    % for \FloatBarrier
+\usepackage{flafter}     % prevents floats from appearing before their definition
+\usepackage{subcaption}  % for side-by-side figures
+% \usepackage{float}     % (optional) for [H] strict placement if you really need it
+
+
+
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{orange},
+  commentstyle=\color{gray},
+  showstringspaces=false,
+  frame=single,
+  breaklines=true
+}
+
+
+% Define a custom box style for examples
+\tcbset{
+  myexample/.style={
+    enhanced,
+    sharp corners=all, % you can change to 'rounded corners' if you prefer rounded
+    colback=gray!5,
+    colframe=black!50,
+    boxrule=0.5pt,
+    arc=3mm, % controls roundness of corners
+    outer arc=3mm,
+    fonttitle=\bfseries,
+    coltitle=black,
+    colbacktitle=gray!15,
+    attach boxed title to top left={yshift=-2mm, xshift=2mm},
+  }
+}
+
+
+
+% new column type: horizontally and vertically centered with wrapping
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+
+\newcommand{\cmark}{\ding{51}} % Checkmark symbol
+\newcommand{\xmark}{\ding{55}} % X symbol
+
+\setcounter{tocdepth}{2}
+
+% Πρόσθετοι ορισμοί, ανάλογα με το κείμενο της διπλωματικής
+% typeset source code
+\newcommand{\src}[1]{{\tt#1}}
+
+% typeset a backslash
+\newcommand{\bkslash}{\symbol{92}}
+
+% Κύρια γλώσσα της διπλωματικής
+% μην την τροποποιείτε
+\ifgrthesisoption 
+    \setlanguage{greek}
+\else
+    \setlanguage{american} 
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% THESIS INFO / ΠΛΗΡΟΦΟΡΙΕΣ ΔΙΠΛΩΜΑΤΙΚΗΣ
+%%
+% Τίτλος Διπλωματικής Εργασίας στα ελληνικά
+	\title{Αξιοποίηση Χωρικών Δεδομένων και Γενετικής Τεχνητής Νοημοσύνης για Βέλτιστη Επιλογή Επιχειρηματικής Τοποθεσίας}
+% Τίτλος Διπλωματικής Εργασίας στα αγγλικά
+	\titleEng{Utilization of Spatial Data and Generative Artificial Intelligence for Optimal Business Location Selection}
+% Ονοματεπώνυμο φοιτητή στα ελληνικά
+	\edef\authorname{Γιώργος Κακεπάκης}
+	\edef\secauthorname{} % κενό αν η εργασία έγινε από έναν φοιτητή
+% Ονοματεπώνυμο φοιτητή στα αγγλικά 
+	\edef\authornameEng{Giorgos Kakepakis}
+	\edef\secauthornameEng{} % κενό αν η εργασία έγινε από έναν φοιτητή
+% Ονοματεπώνυμο Επιβλέποντα Καθηγητή στα ελληνικά
+	\supervisor{Ηλίας Χούστης}
+% Ονοματεπώνυμο Επιβλέποντα Καθηγητή στα αγγλικά
+	\supervisorEng{Elias Houstis}
+% Φύλλο επιβλέποντα στα ελληνικά 
+% Μην το τροποποιείτε για διπλωματική στα αγγλικά
+	\edef\supervisorMaleFemale{Επιβλέπων/πουσα}
+% Στοιχεία επιτροπής στα αγγλικά
+    \edef\supervisortitle{Emeritus Professor}
+    \edef\supervisoraffiliation{Department of Electrical and Computer Engineering, University of Thessaly}
+    \edef\memberonename{Emmanouil Vavalis}
+    \edef\memberonetitle{Professor}
+    \edef\memberoneaffiation{Department of Electrical and Computer Engineering, University of Thessaly}
+    \edef\membertwoname{Giorgos Petrakos}
+    \edef\membertwotitle{Professor}
+    \edef\membertwoaffiation{Department of Spatial Planning, Urban Planning and Regional Development Engineering}    
+% Ημερομηνία υποβολής διπλωματικής
+    \newdate{docdate}{04}{09}{2025}
+% Ημερομηνία έγκρισης διπλωματικής
+    \newdate{docapprovedate}{24}{09}{2025}
+% format ημερομηνίας - μην το τροποποιείτε
+    \newdateformat{mydate}{\THEDAY-\THEMONTH-\THEYEAR} \mydate
+% Τόπος και έτος διπλωματικής στα ελληνικά
+	\edef\thesisPlaceDate{Μήνας \getdateyear{docdate}}
+% Τόπος και έτος διπλωματικής στα αγγλικά
+	\edef\thesisPlaceDateEng{Month \getdateyear{docdate}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OPTIONAL MATERIAL / ΠΡΟΑΙΡΕΤΙΚΕΣ ΕΝΟΤΗΤΕΣ
+%%
+% Κατάλογος Σχημάτων προαιρετικά
+	\listoffigures % σε σχόλια για μη εμφάνιση
+% Κατάλογος Πινάκων προαιρετικά
+	\listoftables % σε σχόλια για μη εμφάνιση
+% Συντομογραφίες - Αρκτικόλεξα - Ακρωνύμια προαιρετικά
+	\include{abbreviations} % σε σχόλια για μη εμφάνιση 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\mainmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CHAPTERS / ΚΕΦΑΛΑΙΑ 
+%%
+    \include{chapter1}
+    \include{chapter2}
+    \include{chapter3}
+    \include{chapter4}
+    \include{chapter5}
+    \include{chapter6}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\backmatter % μην ενεργοποιείτε την εντολή
+% Βιβλιογραφία - Αναφορές
+	\bibliography{references}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDICES (optional) / ΠΑΡΑΡΤΗΜΑΤΑ (ΠΡΟΑΙΡΕΤΙΚΑ)
+%%
+
+% Εάν υπάρχουν περισσότερα από ένα Παραρτήματα
+% είναι ενεργή η ακόλουθη εντολή
+% και ανενεργή για μεμονωμένο Παράρτημα
+    \include{appendices}
+
+% Μην τροποποιήσετε τις ακόλουθες εντολές
+\ifgrthesisoption
+    \renewcommand{\chaptername}{Παράρτημα}
+\else
+    \renewcommand{\chaptername}{Appendix}
+\fi
+
+% Πριν το κάθε Παράρτημα (για περισσότερα από ένα), 
+% ρυθμίζεται η κατάλληλη αλφαβητική αρίθμηση
+    
+    \renewcommand{\thechapter}{A}
+    \include{appendix_A}
+
+    \renewcommand{\thechapter}{B}
+    \include{appendix_B}
+
+    \renewcommand{\thechapter}{C}
+    \include{appendix_C}
+
+    % \renewcommand{\thechapter}{D}
+    % \include{appendix_D}
+
+    % \renewcommand{\thechapter}{E}
+    % \include{appendix_E}
+
+% Εάν υπάρχει μόνο ένα Παράρτημα,
+% μπαίνουν σε σχόλια οι παραπάνω γραμμές 
+% και ρυθμίζεται αρίθμηση χωρίς γράμμα
+  \renewcommand{\thechapter}{} 
+  \renewcommand{\thesection}{\arabic{section}}
+%
+% Ακολουθεί αρχείο μεμονωμένου Παραρτήματος
+% (διαφορετική δομή από appA/appΒ)
+%  \include{appendix_A} 
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
