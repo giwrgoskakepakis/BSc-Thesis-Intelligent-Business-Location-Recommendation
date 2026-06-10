@@ -1,0 +1,1 @@
+This is a folder containing information about the attempt to improve the thesis in order to potentially be published.

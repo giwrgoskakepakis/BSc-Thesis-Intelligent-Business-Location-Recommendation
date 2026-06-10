@@ -17,3 +17,6 @@ __pycache__/
 
 # Ignore the reading material as discussed
 Reading Material/
+
+## HuggingFace Token
+Token.txt

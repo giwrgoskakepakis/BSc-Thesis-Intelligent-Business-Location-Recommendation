@@ -1,0 +1,8 @@
+{
+  "random_seed": 42,
+  "protocol": "leave-one-out (test); leave-one-out (val) for classes with >=3 non-zero neighborhoods",
+  "n_train_interactions": 1258,
+  "n_val": 200,
+  "n_test": 244,
+  "testable_nace_classes": 244
+}
