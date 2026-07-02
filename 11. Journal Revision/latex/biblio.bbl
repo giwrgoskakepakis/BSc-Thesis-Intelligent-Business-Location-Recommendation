@@ -1,0 +1,35 @@
+%--------------------------------------------------------------
+\begin{thebibliography}{00}
+
+\bibitem{han2024} S.~Han, L.~Chen, Z.~Su, S.~Gupta, and U.~Sivarajah, ``Identifying a good business location using prescriptive analytics,'' \textit{J. Bus. Res.}, vol.~179, p.~114691, 2024.
+
+\bibitem{alhasan2024} T.~M.~Al-Hasan \textit{et al.}, ``From traditional recommender systems to GPT-based chatbots: A survey,'' \textit{Big Data Cogn. Comput.}, vol.~8, no.~4, 2024.
+
+\bibitem{oliveira2024} A.~Oliveira, N.~Fachada, and J.~Carvalho, ``Data science for geographic information systems,'' 2024.
+
+\bibitem{pavani2024} P.~Pavani \textit{et al.}, ``GIS applications in business decision-making,'' in \textit{Proc. ICSMEE'24}, vol.~529, p.~04006, 2024.
+
+\bibitem{manika2021} S.~Manika, K.~Karalidis, and A.~Gospodini, ``Mechanism for the optimal location of a business,'' \textit{Urban Sci.}, vol.~5, no.~4, 2021.
+
+\bibitem{breiman2001} L.~Breiman, ``Random forests,'' \textit{Mach. Learn.}, vol.~45, no.~1, pp.~5--32, 2001.
+
+\bibitem{chen2016} T.~Chen and C.~Guestrin, ``XGBoost: A scalable tree boosting system,'' in \textit{Proc. 22nd ACM SIGKDD}, pp.~785--794, 2016.
+
+\bibitem{vaswani2023} A.~Vaswani \textit{et al.}, ``Attention is all you need,'' in \textit{Proc. NeurIPS}, 2017.
+
+\bibitem{hu2022} E.~Hu \textit{et al.}, ``LoRA: Low-rank adaptation of large language models,'' in \textit{Proc. ICLR}, 2022. arXiv:2106.09685.
+
+\bibitem{dettmers2023} T.~Dettmers, A.~Pagnoni, A.~Holtzman, and L.~Zettlemoyer, ``QLoRA: Efficient finetuning of quantized LLMs,'' in \textit{Proc. NeurIPS}, 2023. arXiv:2305.14314.
+
+\bibitem{lewis2020} P.~Lewis \textit{et al.}, ``Retrieval-augmented generation for knowledge-intensive NLP tasks,'' in \textit{Proc. NeurIPS}, 2020. arXiv:2005.11401.
+
+\bibitem{park2023} J.~S.~Park \textit{et al.}, ``Generative agents: Interactive simulacra of human behavior,'' in \textit{Proc. UIST}, 2023. arXiv:2304.03442.
+
+\bibitem{lundberg2017} S.~Lundberg and S.-I.~Lee, ``A unified approach to interpreting model predictions,'' in \textit{Proc. NeurIPS}, 2017. arXiv:1705.07874.
+
+\bibitem{eurostat2008} 
+Eurostat, \textit{NACE Rev.~2.1: Statistical Classification of Economic Activities in the European Community}. Luxembourg: Office for Official Publications of the European Communities, 2008.
+
+\bibitem{ratner2017} A.~J.~Ratner, C.~M.~De~Sa, S.~Wu, D.~Selsam, and C.~R\'e, ``Snorkel: Rapid training data creation with weak supervision,'' \textit{Proc. VLDB Endow.}, vol.~11, no.~3, pp.~269--282, 2017.
+
+\end{thebibliography}

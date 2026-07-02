@@ -1,0 +1,587 @@
+%Version 3.1 December 2024
+% See section 11 of the User Manual for version history
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%\documentclass[referee,sn-basic]{sn-jnl}% referee option is meant for double line spacing
+
+%%=======================================================%%
+%% to print line numbers in the margin use lineno option %%
+%%=======================================================%%
+
+%%\documentclass[lineno,pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%=========================================================================================%%
+%% the documentclass is set to pdflatex as default. You can delete it if not appropriate.  %%
+%%=========================================================================================%%
+
+%%\documentclass[sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%Note: the following reference styles support Namedate and Numbered referencing. By default the style follows the most common style. To switch between the options you can add or remove Numbered in the optional parenthesis. 
+%%The option is available for: sn-basic.bst, sn-chicago.bst%  
+ 
+%%\documentclass[pdflatex,sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+%%\documentclass[pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+%%\documentclass[pdflatex,sn-mathphys-ay]{sn-jnl}% Math and Physical Sciences Author Year Reference Style
+%%\documentclass[pdflatex,sn-aps]{sn-jnl}% American Physical Society (APS) Reference Style
+%%\documentclass[pdflatex,sn-vancouver-num]{sn-jnl}% Vancouver Numbered Reference Style
+%%\documentclass[pdflatex,sn-vancouver-ay]{sn-jnl}% Vancouver Author Year Reference Style
+%%\documentclass[pdflatex,sn-apa]{sn-jnl}% APA Reference Style
+%%\documentclass[pdflatex,sn-chicago]{sn-jnl}% Chicago-based Humanities Reference Style
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included here>
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\usepackage{threeparttable}
+
+%%%%
+
+%%%%%=============================================================================%%%%
+%%%%  Remarks: This template is provided to aid authors with the preparation
+%%%%  of original research articles intended for submission to journals published 
+%%%%  by Springer Nature. The guidance has been prepared in partnership with 
+%%%%  production teams to conform to Springer Nature technical requirements. 
+%%%%  Editorial and presentation requirements differ among journal portfolios and 
+%%%%  research disciplines. You may find sections in this template are irrelevant 
+%%%%  to your work and are empowered to omit any such section if allowed by the 
+%%%%  journal you intend to submit to. The submission guidelines and policies 
+%%%%  of the journal take precedence. A detailed User Manual is available in the 
+%%%%  template package for technical guidance.
+%%%%%=============================================================================%%%%
+
+%% as per the requirement new theorem styles can be included as shown below
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%  meant for continuous numbers
+%%\newtheorem{theorem}{Theorem}[section]% meant for sectionwise numbers
+%% optional argument [theorem] produces theorem numbering sequence instead of independent numbers for Proposition
+\newtheorem{proposition}[theorem]{Proposition}% 
+%%\newtheorem{proposition}{Proposition}% to get separate numbers for theorem and proposition etc.
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+%%\unnumbered% uncomment this for unnumbered level heads
+
+\begin{document}
+
+\title[Business Location Recommendation]{Business Location Recommendation with Geospatial Data and Generative AI}
+
+%%=============================================================%%
+%% GivenName	-> \fnm{Joergen W.}
+%% Particle	-> \spfx{van der} -> surname prefix
+%% FamilyName	-> \sur{Ploeg}
+%% Suffix	-> \sfx{IV}
+%% \author*[1,2]{\fnm{Joergen W.} \spfx{van der} \sur{Ploeg} 
+%%  \sfx{IV}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\author{\fnm{Giorgos} \sur{Kakepakis}}\email{gkakepakis@uth.gr}
+
+\author{\fnm{Elias} \sur{Houstis}}\email{enh@uth.gr}
+%\equalcont{These authors contributed equally to this work.}
+
+\author*{\fnm{Manolis} \sur{Vavalis}}\email{mav@uth.gr}
+%\equalcont{These authors contributed equally to this work.}
+
+\affil{\orgdiv{Department of Electrical and Computer Engineering}, \orgname{University of Thessaly}, \orgaddress{\street{Pedion Areos}, \city{Volos}, \postcode{38334}, \state{}, \country{Greece}}}
+
+%%==================================%%
+%% Sample for unstructured abstract %%
+%%==================================%%
+
+\abstract{Selecting the optimal location is a critical success factor for any business, as it directly influences customer accessibility, competitive positioning, and long-term sustainability. This paper presents a system that combines geospatial data---including population density, accessibility metrics, and socio--economic indicators---with state-of-the-art generative AI techniques to produce explainable, personalized business location recommendations. We construct a multi-source dataset for the region of Volos, Greece, integrating business records with geographic, demographic, and economic features at the neighborhood and municipal community levels. Two large language model (LLM)-based approaches are implemented and compared: a fine-tuned LLM using QLoRA on Mistral-7B-Instruct, 
+and a Retrieval-Augmented Generation (RAG) pipeline with a BGE-Large encoder and Llama~3 generator. 
+Both systems leverage SHAP-informed feature selection to provide data-driven justifications for their recommendations. Evaluation on an inference dataset of $159$ queries shows that the fine-tuned LLM achieves higher semantic similarity (BERT-F1) 
+and faster inference, while the RAG pipeline yields superior recommendation accuracy (Match@3, Precision@3, Recall@3) 
+and greater adaptability. Both approaches are integrated into an interactive chatbot application with conversational memory. The results demonstrate that while combining spatial data with generative AI is a promising direction for emulating complex location recommendation logic, the study is currently bounded by the use of algorithmic proxy targets rather than longitudinal business success outcomes.} % 150 to 250 words
+
+%%================================%%
+%% Sample for structured abstract %%
+%%================================%%
+
+% \abstract{\textbf{Purpose:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+% 
+% \textbf{Methods:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+% 
+% \textbf{Results:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+%    
+% \textbf{Conclusion:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.}
+
+\keywords{Business location recommendation, geospatial data, large language models, chatbot, explainable AI} 
+
+%%\pacs[JEL Classification]{D8, H51}
+
+%%\pacs[MSC Classification]{35A01, 65L10, 65L12, 65L20, 65L70}
+
+\maketitle
+
+\section{Introduction}\label{sec1}
+
+Business location selection is one of the most consequential decisions an entrepreneur faces, as it determines proximity to customers, competitors, and key infrastructure. Because relocation is costly and risky, this choice is effectively irreversible, making systematic decision support highly valuable.
+
+Spatial data---demographic, economic, and geographic information---are increasingly available through open government sources and have been shown to improve location analysis~\cite{han2024}. However, most spatial approaches rely on rule-based methods that fail to capture complex, non-linear patterns. Simultaneously, large language models (LLMs) have achieved state-of-the-art performance across many domains and show promise for enhancing recommendation systems~\cite{alhasan2024}.
+
+This work merges spatial data analysis with generative AI to create an explainable business location recommendation system. Its main contributions are:
+\begin{itemize}
+    \item The development of a data integration pipeline for Volos, Greece, combining business records with geographic, economic, and demographic information at the neighborhood and municipal community levels.
+    \item The derivation of an ensemble-based proxy ground truth to serve as a target for model emulation in the absence of proprietary performance data.
+    \item The implementation and comparison of two LLM-based approaches: fine-tuning a pre-trained LLM with QLoRA, and designing a RAG pipeline with re-ranking.
+    \item The integration of SHAP-informed feature importance to generate evidence-based justifications for the recommended locations
+    \item The development of a chatbot application enabling interactive, preference-aware conversations.
+\end{itemize}
+
+The end-to-end workflow of the proposed system—spanning data integration, proxy ground-truth derivation, LLM modeling, and final application—is depicted in Fig.~\ref{fig:workflow}, details of which will be provided in subsequent sections.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\columnwidth]{workflow.png}
+    \caption{System architecture and methodology workflow}
+    \label{fig:workflow}
+\end{figure}
+
+The rest of this paper is organized as follows. In the next Section we provide the background required to follow the development and evaluation of our prototype system. It also contains a literature review of related efforts. In Section~\ref{sec:data} we present our efforts to harvest and pre-process the data required and in Section~\ref{sec:finetuningvsRAG} we discuss and compare  internal model weights versus external knowledge retrieval (fine-tuning vs. RAG) methods.
+Our experimentation and data are given in Section~\ref{sec:exper} and our synopsis and conclusions in Section~\ref{sec:concl}.
+
+
+\section{Background and Related Work}\label{sec2}
+
+% Geographic Information Systems (GIS) have long served as tools for spatial analysis in business location decisions, integrating factors such as population density, transportation access, and competitor distribution~\cite{oliveira2024, pavani2024, manika2021}. Machine learning techniques---including Random Forests~\cite{breiman2001} and XGBoost~\cite{chen2016}---have been applied alongside GIS to capture non-linear relationships that rule-based methods miss.
+
+% The emergence of Transformers and LLMs has opened new avenues for recommendation systems~\cite{alhasan2024}. Fine-tuning adapts pre-trained models to specific domains, with parameter-efficient methods such as LoRA~\cite{hu2022} and QLoRA~\cite{dettmers2023} making this feasible on consumer-grade hardware. Retrieval-Augmented Generation (RAG) addresses the static-knowledge limitation of fine-tuned models by incorporating external data at inference time~\cite{lewis2020}. 
+
+% The transition from raw LLMs to functional chatbots involves the integration of persistent memory and conversational interfaces, providing a structured framework for user interaction ~\cite{park2023}. SHAP values~\cite{lundberg2017} provide model-agnostic interpretability by calculating the contribution of each feature to a specific prediction based on cooperative game theory. NACE codes~\cite{eurostat2008} offer a standardized European classification for economic activities.
+
+Geographic Information Systems (GIS) have long served as foundational tools for spatial analysis in business location decisions. Classical approaches integrate factors such as population density, transportation accessibility, competitor distribution, and socio-economic indicators to support site selection~\cite{oliveira2024, pavani2024, manika2021}. 
+Machine learning techniques, including Random Forests~\cite{breiman2001} and gradient boosting methods such as XGBoost~\cite{chen2016}, have been combined with GIS to model non-linear relationships that rule-based systems often miss. 
+More recent prescriptive analytics frameworks have demonstrated the value of spatial data mining for specific use cases such as restaurant location recommendation~\cite{han2024}. 
+Comprehensive reviews confirm that machine learning for urban spatial analysis remains a vibrant research area~\cite{Casali2022MLUrbanSpatial}, while retail-oriented studies continue to explore geospatial analytics for site selection and sales prediction~\cite{Ting2018GeospatialRetail}.
+
+The rapid progress of large language models (LLMs) and generative AI has opened new research directions for location-aware and recommendation systems~\cite{alhasan2024}. 
+Early generative models for spatial item recommendation, such as the Geographical Sparse Additive Generative Model (\textit{Geo-SAGE})~\cite{GeoSAGE}, already highlighted the importance of incorporating geographic context. More recent efforts focus on Point-of-Interest (POI) recommendation and next-location prediction. Geography-aware LLMs have been proposed for query suggestion in local-life services~\cite{LocalSUG}, while generative retrieval frameworks such as \textit{GeoGR} explicitly model spatio-temporal dependencies for POI recommendation~\cite{GeoGR}. 
+The work in~\cite{ReasoningOverSpace} equips LLMs with explicit geographic reasoning capabilities to improve generative next-POI recommendations. Multi-modal LLMs combined with retrieval-augmented generation (RAG) have shown strong performance in street-level geolocalization tasks~\cite{StreetLevelGeolocal}. LLM-based applications have also been developed for neighborhood information retrieval and personalized cognitive-map-style recommendations~\cite{AskNearby}. Furthermore, researchers have begun examining fairness and bias issues in geographical recommendations produced by LLMs~\cite{UnequalOpportunities}.
+
+In the more specific domain of \emph{business site selection} and new business location recommendation, several recent contributions are directly relevant. 
+The recently introduced LLM-powered site selection recommender systems leverage generative capabilities to recommend optimal locations~\cite{Gao2024LLMSiteSelection}. 
+Specialized AI assistants such as \textit{Entrelocate} have been designed to support business location decisions together with risk assessment~\cite{Bozdag202574}. 
+Complementary approaches enrich recommendations by fusing satellite imagery and multi-visual features~\cite{Suvon2026}.
+Systematic benchmarking efforts, such as \textit{LocationReasoner}, evaluate how well current LLMs perform on real-world site selection reasoning tasks~\cite{Koda2025LocationReasoner}. The above mentioned works clearly demonstrate both the promise and the remaining challenges of applying generative models to business location problems.
+
+Beyond academic prototypes, major technology providers have released production-grade geospatial generative AI platforms. Amazon's \textit{Bedrock} combined with Amazon Location Service enables developers to build geospatial generative AI applications~\cite{AWS2023GeospatialGenAI}. 
+Industry analyzes from Esri and Databricks illustrate the practical uses of generative AI with GIS to understand business performance and support real estate investment decisions~\cite{Esri2025GenAIBusinessPerformance, Databricks2025GeospatialGenAIRealEstate}. Broader industry reports further emphasize the growing strategic importance of AI-driven location intelligence for business. Recent surveys on AI-driven geospatial analysis and data generation provide a comprehensive overview of methods, applications, and future directions in this rapidly evolving field~\cite{Hochmair2025AdvancingGeoAI}.
+
+Despite these advances, important gaps remain. Most existing LLM-based location and POI recommendation systems target \emph{user mobility} patterns (e.g., next-POI prediction) rather than the distinct problem of recommending locations for \emph{new business openings}. Many approaches either lack explicit, feature-level explainability grounded in spatial statistics or rely on direct supervision from sparse historical success labels. Furthermore, systematic comparisons between fine-tuned LLMs and retrieval-augmented pipelines in realistic municipal settings with conversational interfaces are still limited. Our work addresses these gaps by constructing an ensemble-based proxy ground truth from complementary supervised, unsupervised, and semi-supervised spatial models, integrating SHAP-informed feature importance for evidence-based justifications, and performing a head-to-head comparison of a QLoRA-fine-tuned Mistral-7B model against a BGE-Large + Llama 3 RAG pipeline. 
+
+%--------------------------------------------------------------
+\section{Data Collection and Preprocessing} \label{sec:data}
+%--------------------------------------------------------------
+Our observations and findings from the above literature review are coupled with systematic experimentation through
+our prototype system that is deployed as an interactive chatbot with conversational memory, evaluated on real-world NACE-class queries for the city of Volos, the 7th largest city in Greece.
+Our study can be applied, with limited effort, to any other region with similar characteristics.
+
+\subsection{Data Sources and Dataset Integration}
+
+Three primary datasets were assembled for the Volos region:
+
+\begin{description}
+    \item[Business Entries Dataset:] A total of 3,882 business records were collected from Foursquare (through an API), Yellow Pages, Greek Catalog, and Vacation Renter (with web scraping). After deduplication, geocoding via the Google Maps API, and cleansing (removing out-of-boundary entries and records with missing critical fields), 14 features were retained, including name, coordinates, category, rating, and NACE code.
+    \item[Municipal Communities Dataset:] Demographic and economic data for 76 municipal communities were obtained from the Hellenic Statistical Authority. Feature engineering produced 22 normalized features covering population, age groups, education levels, employment sectors, unemployment rate, and area.
+    \item[Neighborhoods Dataset:] Using QGIS and the QuickOSM plugin, 48 neighborhoods were delineated with Voronoi polygons. The features collected were 11, including centroid coordinates, area, and distances to key points of interest (city center, port, university, transport stops, main roads).
+\end{description}
+
+%\subsection{Dataset Integration}
+
+Business entries were linked to their corresponding neighborhoods and municipal communities via spatial joins using GeoPandas. NACE codes were manually mapped from raw category labels to ensure accuracy. The fully joined dataset contains 3,882 records with 42 features. Figure~\ref{fig:neighborhoods_map} illustrates the resulting spatial partition: the 48 Voronoi cells (pink) constructed from the named seed locations (red points) extracted via QGIS/QuickOSM.
+
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\columnwidth]{neighborhoods_magnesia.png}
+    \caption{The 48 neighborhoods of the Magnesia/Volos study region, delineated as Voronoi polygons (pink) constructed from named seed locations (red points) extracted via QGIS/QuickOSM. Each cell contains the area closest to its seed point, producing a denser partition in the urban core---where named locations cluster---and progressively coarser cells toward the suburban and rural periphery.}
+    \label{fig:neighborhoods_map}
+\end{figure}
+\subsection{Exploratory Data Analysis}
+
+Comprehensive Exploratory Data Analysis (EDA) was performed on each of the three primary datasets, as well as on the fully joined dataset, examining distributions, sparsity patterns, and statistical relationships across demographic, economic, and geographic features. Several findings are particularly relevant to the modeling decisions that follow.
+
+The distribution of businesses across 'Municipal Communities' exhibited significant skewness, whereas 'Neighborhoods' demonstrated a notably more uniform distribution. The ’Rating’ field ---user-submitted satisfaction scores aggregated from the source platforms--- was found to be very sparse, with only $5.87\%$ of business entries carrying a valid value.
+
+The distribution of the unemployment rate approximates normality, which is supported by several statistical tests that failed to reject the null hypothesis. The data show a moderate positive correlation with higher education ($r = 0.44, p < 0.001$) and a negative correlation with lower education levels ($r = -0.31, p < 0.01$).
+
+ The distance from the neighborhood center exhibits a weak but significant positive correlation with distance from main roads ($r = 0.29, p < 0.05$), a moderate correlation with distance from transit stops ($r = 0.58, p < 0.001$) and  a near-perfect correlation with distance from university facilities ($r = 0.99, p < 0.001$).
+
+The integrated dataset reveals that, while peak unemployment rates are relatively uniform across sectors, they are most prevalent in manufacturing (wood, machinery, and electronics), utilities (electricity/natural gas) and land transportation. Despite significant data sparsity, a statistically significant negative correlation exists between mean rating of businesses across municipal communities and unemployment rate ($r = -0.91, p < 0.005$).
+
+Collectively, these observations --particularly the sparsity of business ratings and the heterogeneous distribution of business presence across spatial units-- inform the construction of proxy ground-truth targets described in the following subsection.
+
+\subsection{Proxy Ground Truth Creation}
+
+Due to the sparsity of available ratings (5.87\%), proxy ground truths were constructed through an ensemble of the following three complementary methods that approach the location suitability problem from distinct statistical perspectives: 
+\begin{enumerate}
+    \item \textbf{A supervised Random Forest (SRF)} model that predicts business presence probability per neighborhood, trained on observed location patterns;
+    \item \textbf{An unsupervised K-Means (USK-M)} approach identifying ideal cluster centroids per NACE class, capturing latent spatial structure without relying on sparse labels; and
+    \item \textbf{A semi-supervised self-training (SSST)} regressor that propagates sparse ratings to unlabeled instances, bridging the supervised and unsupervised regimes.
+\end{enumerate}
+
+The integration of these three distinct statistical perspectives into a unified proxy target is illustrated in the 'Rank aggregation' stage of Fig. \ref{fig:workflow}.
+
+The degree of agreement between methods was assessed via pairwise Jaccard similarity (J) on their top-10 neighborhood sets. The unsupervised and semi-supervised approaches yield the most congruent recommendations (\emph{J = 0.509}), a result consistent with their shared reliance on distributional rather than label-driven signals. The supervised method diverges more substantially from both (\emph{$J = 0.24$} and \emph{$J = 0.27$}, respectively), which is expected, given that it optimizes directly for observed business presence — a signal dominated by historically central, high-density areas — rather than latent suitability. 
+
+A complementary metric assessed the \emph{spatial} agreement of the top-3 recommendations, treating two suggestions as concordant when they fall within 1~km of each other. By this measure the methods are geographically close (soft spatial overlap of $0.59$--$0.73$), with the supervised and semi-supervised approaches the most aligned ($0.73$) and the supervised and unsupervised the least ($0.59$). 
+
+Notably, the supervised method---the most divergent in exact set overlap---is spatially the closest to the semi-supervised one, indicating that inter-method disagreements frequently reflect nearby alternative neighborhoods rather than genuinely different areas. This divergence is not treated as a failure of the ensemble: methods that encode different inductive biases are precisely the complement needed to reduce the systematic blind spots of any single approach. The moderate inter-method agreement observed here is comparable to that reported in ensemble-based proxy label construction in other data-scarce recommendation settings ~\cite{ratner2017}, and it motivates aggregation rather than selection.
+
+The outputs of the three methods were combined via weighted rank aggregation. Weights were assigned proportionally to each method's share of central-area recommendations (\emph{supervised: $0.311$, unsupervised: 0.358, semi-supervised: $0.331$}), operationalizing the assumption that alignment with observed commercial concentration in urban cores is a reasonable, if imperfect, proxy for recommendation quality in the absence of ground-truth outcome data. The resulting weights are notably balanced, reducing sensitivity to any single method's biases. In addition to these method weights, each neighborhood's rank within a method's top-10 list was scored by position (Top-1~$=10$, Top-2~$=9$, \ldots, Top-10~$=1$), so that higher-ranked candidates contribute more strongly to the consensus. The final score of a neighborhood $N_i$ is the method-weighted sum of its position scores across the three approaches,
+\begin{equation}
+    \mathrm{score}(N_i) = w_s\,\mathrm{top}_{s,i} + w_u\,\mathrm{top}_{u,i} + w_{ss}\,\mathrm{top}_{ss,i},
+    \label{eq:proxy_score}
+\end{equation}
+where $w_s$, $w_u$, $w_{ss}$ are the supervised, unsupervised, and semi-supervised method weights above and $\mathrm{top}_{\cdot,i}$ is the position score of $N_i$ under each method (zero if it does not appear in that method's top-10). For every NACE class, neighborhoods were ranked by this cumulative score and the ten highest retained as the proxy ground truth.
+
+These proxy targets represent an algorithmic approximation of location suitability rather than a validation against real-world commercial outcomes such as revenue or business survival rates. Such longitudinal outcome data are rarely available at neighborhood-level granularity, a limitation shared by the broader literature on urban business location modeling~\cite{han2024}. The ensemble design mitigates individual model biases and ensures that no single method's structural assumptions dominate the targets. It is important to emphasize that the evaluation metrics in this work — Match@3, Precision@3, Recall@3, and BERT-F1 — measure the capacity of the LLM-based architectures to replicate the complex spatial logic encoded in the proxy ensemble, not to predict absolute commercial viability. This framing is consistent with recommendation emulation as a well-defined research objective in its own right, and the results should be interpreted accordingly.
+
+
+\section{Fine-tuning vs. retrieval-based RAG}\label{sec:finetuningvsRAG}
+
+Our system's dual-architectural design (see Fig.~\ref{fig:workflow}) allows for a direct comparison of how internal model weights versus external knowledge retrieval handle complex spatial recommendation tasks.
+
+\subsection{Fine-Tuned LLM}
+
+The \textbf{dataset construction} was realized as follows. For each of 306 NACE classes, three synthetic natural-language business descriptions were generated (918 training pairs). Prompts are selected randomly from a set of five synthetic templates. While this randomization reduces literal pattern memorization, the training remains bounded by the structural regularities of these templates and the reported performance reflects semantic robustness rather than universal generalization. 
+
+Completions contain the top-3 recommended neighborhoods with feature-level justifications. The feature importance driving these justifications were obtained from an XGBoost classifier trained on all $306\times48=14{,}688$ (NACE class, neighborhood) pairs, each labeled by whether the neighborhood lies in that class's proxy top-3. SHAP values extracted from this surrogate were averaged within each NACE class to rank features per class; across all classes, the largest attributions---aside from the class identifier itself---fall on population, distance to main roads, and distance to universities, all of which belong to the fixed feature set described below. 
+
+Each neighborhood is justified with six features: four drawn at random from a set of seven features assumed to be consistently relevant (area, city-center distance, road/transport proximity, etc.), and the two top-ranked per-class SHAP features not already in that set, balancing a stable core with class-specific variety. Each selected value is compared against its 25th/50th/75th percentile thresholds and rendered through one of three pre-written templates per interval, chosen at random for linguistic variation. An example completion is shown in Fig.~\ref{fig:example_completion}.
+
+\begin{figure}[htb]
+    \centering
+    \fbox{\parbox{0.95\linewidth}{\small
+    \textbf{Prompt:} \emph{Where should I open a greenhouse farming business in Volos?}\\[4pt]
+    \textbf{Completion:} Top neighborhoods for a Greenhouse farming business (NACE 1.13: Growing of vegetables and melons, roots and tubers) in Volos:\\[3pt]
+    \textbf{1.~Metamorfosi} -- right near the university (0.14 km) --- great if you want to attract students or young professionals; a large local population, which can bring in steady foot traffic; a compact neighborhood (0.56~km\textsuperscript{2}) where your business could benefit from steady foot traffic; excellent central location (0.54 km), making your business easy to find and reach; accessible without being too exposed to street noise or congestion (0.16 km); fairly accessible by public transport (0.20 km), even if not right next to a bus stop.\\[3pt]
+    \textbf{2.~Kato Lehonia} -- a balanced location (2.07~km\textsuperscript{2}) --- not too dense, not too open; a busy neighborhood with a strong base of potential customers nearby; close enough (8.62 km) to be convenient, while still offering some breathing room from downtown traffic; great access to main roads (0.01 km) --- easy for customers to reach you and for deliveries to run smoothly; not close to campus (8.21 km), which could work well for businesses focused on the neighborhood itself; excellent access to public transit (0.04 km), which can boost foot traffic to your business.\\[3pt]
+    \textbf{3.~Agios Konstantinos} -- a moderately sized area (0.82~km\textsuperscript{2}) that balances space and accessibility; it's very close to the city center (1.41 km), which means great visibility and easy access; a reasonable distance from transit (0.16 km) --- close enough for most customers to reach you without much hassle; lots of people live in the area --- great for attracting walk-in customers; reasonably close to main roads (0.13 km), giving you decent accessibility without heavy traffic; a lively spot near the university (0.82 km) that could bring in a lot of student activity.
+    }}
+    \caption{Example fine-tuned LLM completion: prompt and structured response with feature-grounded justifications for the top-three recommended neighborhoods.}
+    \label{fig:example_completion}
+    \end{figure}
+
+For \textbf{training} the Mistral-7B-Instruct-v0.2 was fine-tuned using QLoRA (4-bit NF4 quantization, LoRA rank~16, scaling factor~64, dropout~0.05) on an NVIDIA A40 GPU. Only 0.18\% of the parameters were trainable. Three training runs (3, 5 and 8 epochs) were compared; 5~epochs yielded the best performance before overfitting occurred.
+
+% An \textbf{inference dataset} of 159 queries was constructed from the 53 most frequent NACE classes (covering 63.3\% of businesses), each with 3 synthetic prompts. To evaluate semantic robustness rather than verbatim memorization, a vocabulary partitioning protocol was used: while training prompts utilized primary category descriptors (e.g., 'bar', 'restaurant'), the evaluation set employed synonymous but distinct linguistic variants (e.g., 'night store', 'bistro'). This ensures the evaluation measures the system's ability to map diverse user intents to the underlying spatial logic.
+
+We put together an evaluation set of 159 queries covering the 53 most common NACE classes (roughly 63\% of businesses) and we generated three synthetic prompts. The main goal was to test whether the model actually understood the underlying categories instead of just memorizing specific words from training. So we used different wording in the test set: training prompts relied on straightforward terms like “bar” or “restaurant,” while the evaluation prompts used other natural ways people might describe the same places for example “night store” or “bistro.” That let us check how well the system handles the messy, varied language users actually type.
+
+\input
+
+\subsection{RAG Pipeline with Re-Ranking}
+
+\textbf{Neighborhood descriptions} were based on rich textual profiles that have been generated for each of the 48 neighborhoods using all available feature justifications (analogous to the fine-tuning templates but without length constraints). While this study utilized whole-profile embedding averaging, future iterations could explore vector database chunking strategies to preserve local semantic features in longer neighborhood profiles. The end-to-end RAG workflow---from user query to final recommendation---is illustrated in Figure~\ref{fig:rag_workflow}.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\columnwidth]{rag_workflow.png}
+    \caption{End-to-end workflow of the RAG pipeline. The user query (top-left) is embedded by the BGE-Large encoder and compared against precomputed neighborhood-description embeddings (cylinders); the top-three closest candidates (selected one highlighted in yellow) are passed to the Llama-3 generator, which produces the final structured recommendation (bottom-left). Compared with the fine-tuned LLM's direct prompt-to-completion path, the RAG pipeline introduces explicit retrieval and re-ranking stages that operate over the precomputed neighborhood index at inference time.}
+    \label{fig:rag_workflow}
+\end{figure}
+
+The BGE-Large-en-v1.5 \textbf{encoder} (335M parameters, 1024-dim embeddings) was used to pre-compute vector representations of all NACE descriptions and neighborhood descriptions. At inference time, the user query is embedded and compared via cosine similarity to NACE embeddings to identify the target business class. The top-10 proxy ground truth neighborhoods are then re-ranked by similarity between the query embedding and their description embeddings, and the top-3 are selected.
+
+Llama~3 (8B parameters, 4-bit quantized via Ollama) receives the three selected neighborhoods with their descriptions in a structured prompt template and \textbf{generates} a coherent, user-facing recommendation.
+
+The same dataset as in the fine-tuned approach was used, but the \textbf{inference} was originally conducted locally due to the manageable scale of the embedding model and the quantization on the LLM.
+
+\subsection{Chatbot Application}
+
+Both pipelines were integrated into a Streamlit front-end (\url{https://streamlit.io}) with a FastAPI backend. The front-end manages session-based conversation memory. For the fine-tuned LLM, user messages are concatenated (intent + constraints) to form the prompt. For RAG, only the intent determines the NACE class, while the full query (intent + constraints) drives the re-ranking, enabling personalization.
+
+\section{Experimentation} \label{sec:exper}
+%\subsection{Experimental Setup}
+
+The fine-tuned LLM inference was originally performed on an NVIDIA A40 GPU running Ubuntu via HuggingFace \texttt{transformers}, while the RAG pipeline was deployed locally on a Windows 11 machine (AMD Ryzen 7 4800H, 16 GB RAM) using CPU-only inference through the Ollama framework. Quality metrics (BERT-Score, Match@3, Precision@3, and Recall@3) were obtained under these respective native configurations. To enable a fair efficiency comparison, inference time was subsequently re-measured for both systems on the same A40 GPU under matched \texttt{transformers} conditions, as detailed below.
+
+%\subsection{Evaluation Metrics}
+
+The following three categories of evaluation metrics were employed: 
+\begin{itemize}
+    \item \emph{recommendation metrics} Match@3, which measures whether at least one relevant item appears in the top-3; Precision@3, the fraction of recommended items that are genuinely relevant; and Recall@3, the fraction of relevant items successfully retrieved,
+    \item  \emph{semantic metrics} Precision (BERT-P), Recall (BERT-R) and F1 using RoBERTa-large, and an
+    \item \emph{efficiency metric} median inference time per query. 
+\end{itemize}
+ All recommendation and semantic metrics are bounded in $[0, 1]$ with $1$ denoting perfect performance. Two set of metrics operate on different scales: BERT-Score values typically fall in the $0.8$--$0.95$ range for semantically plausible text---because contextual-embedding cosine similarity has a high natural baseline---whereas Match@3 and Precision/Recall@3 require strict overlap with the proxy ground-truth set and therefore land at much lower absolute values even when the system is performing well. Match@3 of $0.78$ (i.e.\ a relevant neighborhood appears in the top-3 in roughly four-fifths of queries) is, for instance, a substantially stronger result than the comparable BERT-F1 gap might suggest at first glance.
+
+%\subsection{Fine-Tuned LLM Results}
+
+Among the three training configurations considered for the Fine-Tuned LLM case, the 5-epoch model achieved the best balance across all metrics (Table~\ref{tab:ablation_ft}). At 8~epochs, performance dropped, indicating overfitting. Semantic similarity scores were consistently higher than recommendation metrics, suggesting the justification quality was strong even when the exact neighborhoods differed.
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Epochs} & \textbf{BERT-P} & \textbf{BERT-R} & \textbf{BERT-F1} & \textbf{Match@3} & \textbf{Prec@3} & \textbf{Rec@3} \\
+    \midrule
+    3 & 0.9229 & 0.9133 & 0.9181 & 0.7862 & 0.3145 & 0.3145 \\
+    5 & 0.9228 & 0.9202 & 0.9215 & 0.7799 & 0.3187 & 0.3187 \\
+    8 & 0.9188 & 0.9179 & 0.9183 & 0.6981 & 0.2851 & 0.2851 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Fine-tuned LLM evaluation across training epochs. The 5-epoch configuration was selected for its overall balance; the marked drop at 8 epochs indicates overfitting.}
+    \label{tab:ablation_ft}
+\end{table}
+
+%\subsection{RAG Pipeline Results}
+
+Three configurations with 10, 15, and 20 feature justifications in the neighborhood descriptions were tested concerning the RAG pipeline approach (Table~\ref{tab:ablation_rag}). Performance decreased with longer descriptions, likely due to token truncation and semantic dilution during embedding averaging. The 10-justification variant was selected as the best configuration. Once again, semantic similarity metrics were better than recommendation metrics.
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Justifications} & \textbf{BERT-P} & \textbf{BERT-R} & \textbf{BERT-F1} & \textbf{Match@3} & \textbf{Prec@3} & \textbf{Rec@3} \\
+    \midrule
+    10 & 0.8727 & 0.8381 & 0.8550 & 0.8302 & 0.3669 & 0.3669 \\
+    15 & 0.8648 & 0.8314 & 0.8477 & 0.7862 & 0.3548 & 0.3522 \\
+    20 & 0.8608 & 0.8290 & 0.8446 & 0.7107 & 0.2778 & 0.2893 \\
+    \bottomrule
+    \end{tabular}
+    \caption{RAG pipeline evaluation across neighborhood-description lengths (number of feature justifications). The 10-justification configuration was selected; accuracy degrades monotonically as descriptions lengthen.}
+    \label{tab:ablation_rag}
+\end{table}
+
+%\subsection{Comparison of Approaches}
+
+To quantitatively compare the two approaches we present in Table~\ref{tab:results} the results for the 
+best configuration of each approach, while Table~\ref{tab:comparison} 
+summarizes their qualitative tradeoffs.
+
+\begin{table}[htbp]
+    \centering
+%    \begin{threeparttable}
+    \begin{tabular}{lcc}
+    \toprule
+    \textbf{Metric} & \textbf{Fine-Tuned LLM} & \textbf{RAG Pipeline} \\
+    \midrule
+    BERT-P  & 0.923 & 0.873 \\
+    BERT-R     & 0.920 & 0.838 \\
+    BERT-F1         & 0.921 & 0.855 \\
+    \midrule
+    Match@3         & 0.780 & 0.830 \\
+    Precision@3     & 0.319 & 0.367 \\
+    Recall@3        & 0.319 & 0.367 \\
+    \midrule
+    Total time, 159 queries (s) & 4472.7 & 2422.4 \\
+    Median time/query (s)       & 28.22  & 15.29  \\
+    \bottomrule
+    \end{tabular}
+    \caption{Quantitative results for the best configurations. Quality metrics (BERT-P/R/F1, Match@3, Precision@3, Recall@3) were obtained under each system's native deployment (FT on the A40 via HuggingFace \texttt{transformers}; RAG locally via Ollama on CPU). Efficiency metrics (total and median time per query) were re-measured for both systems under matched conditions: single NVIDIA A40 at batch size~1, HuggingFace \texttt{transformers}, 4-bit NF4 quantization, and identical greedy decoding capped at 512 new tokens.}
+    \label{tab:results}
+%    \end{threeparttable}
+\end{table}
+    
+\begin{table}[htbp]
+    \centering
+%    \begin{threeparttable}
+
+    \renewcommand{\arraystretch}{1.2} % Adds a bit of "breathing room" between rows
+    \begin{tabular}{@{}lcc@{}}
+    \toprule
+    \textbf{Criterion} & \textbf{Fine-Tuned LLM} & \textbf{RAG Pipeline} \\
+    \midrule
+    BERT-F1 (Semantic)     & Higher          & Lower \\
+    Match@3                & Lower           & Higher \\
+    Precision/Recall@3     & Lower           & Higher \\
+    Adaptability           & Static & Dynamic \\
+    Hallucination Risk     & Higher          & Lower \\
+    Personalization        & Limited         & Better \\
+    Generalization         & Higher & Limited \\
+    \bottomrule
+    \end{tabular}
+        \caption{Qualitative comparison of Fine-Tuned LLM vs. RAG Pipeline. For adaptability, Fine-Tuned requires retraining, and RAG database updates. Personalization for RAG is facilitated by re-ranking. Generalization in the fine-tuned case is within synthetic distribution and in the RAG case is Retrieval-bound.}
+    \label{tab:comparison}
+    % \begin{tablenotes}
+    %     \small
+    %     \item[a] Requires retraining. 
+    %     \item[b] Via database updates.
+    %     \item[c] Facilitated by re-ranking.
+    %     \item[d] 
+    %     \item[e] Retrieval-bound.
+    % \end{tablenotes}
+%    \end{threeparttable}
+\end{table}
+
+The fine-tuned LLM produced outputs that were more semantically aligned with the training completions and demonstrated stronger semantic robustness within the evaluated synthetic-query setting. 
+The higher accuracy of the RAG pipeline suggests that it is more effective in emulation based on proxy ground truth retrieval, while the fine-tuned model attempts to internalize spatial patterns through parametric memory. 
+It offered better personalization through query-driven re-ranking and reduced the risk of hallucination. For instance, under a query that explicitly requested locations near the port, the fine-tuned model still ranked first a neighborhood whose distance to the port exceeded that of its second and third choices, failing to honor the constraint; the RAG pipeline, by contrast, re-ranked its candidates and promoted Palaia---a neighborhood closer to the port---to the top position. This follows directly from the two architectures: the fine-tuned model reproduces the static per-class recommendations it internalized during training, whereas the RAG pipeline's re-ranking step consumes the full query (intent and constraints) and can therefore adapt at inference time. 
+
+Under matched inference conditions---single NVIDIA~A40 at batch size~1, HuggingFace \texttt{transformers}, 4-bit~NF4 quantization, and identical greedy decoding capped at 512 new tokens---the RAG pipeline completed the 159-query evaluation in 2422~s versus 4473~s for the fine-tuned LLM, a $1.85\times$ total-time advantage (median per-query latency 15.3~s vs. 28.2~s; Table~\ref{tab:results}). This gap is dominated by an output-length effect rather than per-token throughput. 
+
+The fine-tuned LLM was trained to fill a detailed multi-feature template and generates an average of 419 tokens per query, whereas the RAG pipeline is prompted for a more concise structured response (271 tokens on average). The resulting $1.55\times$ token ratio---further amplified by Llama-3's larger vocabulary (128k vs Mistral's 32k), which represents the same text in fewer tokens---accounts for most of the $1.85\times$ wall-clock gap; per-token decoding throughput differs by only $\sim$20\% between the two systems (14.9 vs 17.8 tokens/s), a residual attributable to the LoRA-adapter overhead in the fine-tuned model and to background GPU contention during measurement. The reported timings therefore reflect each system as deployed rather than a controlled comparison of identical generative workloads; aligning the output styles would substantially narrow the gap. In the chatbot setting, the RAG pipeline's fixed-template input proved advantageous over the fine-tuned LLM's growing input (concatenated conversation history), which compounds the per-query speed advantage observed here.
+
+
+\section{Conclusions and Future Work} \label{sec:concl}
+
+This paper demonstrates that combining geospatial data with generative AI can effectively emulate expert-driven spatial recommendations by bridging the gap between raw geospatial data and natural language SHAP-informed justifications. The fine-tuned LLM and the RAG pipeline exhibit complementary strengths: the former excels in semantic coherence and generalization to unseen queries, while the latter provides superior recommendation accuracy, dynamic updatability, and reduced hallucination risk. Each approach is suited to different deployment contexts--the fine-tuned LLM is more amenable to batched offline scoring, whereas scenarios requiring frequent data updates and user personalization favor the RAG pipeline.
+
+% Although this study focuses on the Volos region, the developed pipeline—from multi-source data integration to LLM-based emulation—is designed to be region-agnostic. Provided that open-source geospatial and demographic data are available, the framework can be replicated on a national or international scale to support diverse urban contexts.
+
+The pipeline we developed is not locked to the city of Volos. As long as decent open geospatial and demographic datasets of certain quality are available, it should be possible to adapt the framework for other cities or even scale it up to a larger region.
+
+Key limitations include reliance on proxy ground truths (actual success labels were unavailable), the relatively small data set ($< 4,000$ entries) and hardware constraints that limit model scale. Future work includes: validating the system against a human-authored test set to assess out-of-distribution generalization, acquiring real ground-truth data, and exploring larger base models. In addition, there is potential in expanding the training dataset, applying prompt engineering to improve descriptions, integrating vector databases with chunking for longer neighborhood profiles, and building a multi-server architecture for scalability. 
+
+A complementary direction we have begun investigating reformulates the problem as 
+an implicit-feedback top-$N$ recommendation task, directly addressing the 
+proxy-target limitation discussed in Section~\ref{sec1}. Under this framing, the 
+observed presence of a business of NACE class $c$ in neighborhood $n$ is treated 
+as an implicit positive interaction in a class--neighborhood interaction matrix, 
+and the recommendation goal becomes predicting held-out interactions from the 
+remainder---a standard formulation in the recommender-systems 
+literature~\cite{hu2008, rendle2009}. This recasting replaces algorithmic proxies 
+with held-out empirical co-location patterns as the evaluation signal.
+
+Figure~\ref{fig:recsys-performance} reports preliminary results for a set of 
+standard collaborative-filtering baselines under this formulation: TopPop, 
+ItemCF, PureSVD, HuMF, NeuMF, and a Random baseline, evaluated by Hit Rate 
+(HR@K) and Normalized Discounted Cumulative Gain (NDCG@K) on both the full test 
+set and a long-tail subset that excludes the most popular (NACE class, 
+neighborhood) interactions. On the full test set, popularity-based and 
+neural-collaborative methods (TopPop, NeuMF) achieve the highest scores, but 
+their advantage shrinks substantially on the long-tail subset, where PureSVD and 
+ItemCF retain the strongest performance---indicating that latent-factor methods 
+capture finer-grained co-occurrence patterns than purely popularity-driven 
+approaches.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1.02\textwidth]{recsys_lineplot_latex.png}
+    \caption{Standard collaborative-filtering baselines under the implicit-feedback 
+    formulation: Hit Rate (HR@K, top) and Normalized Discounted Cumulative Gain 
+    (NDCG@K, bottom), evaluated on the full test set (solid lines) and a long-tail 
+    subset (dashed lines) that excludes the most popular (NACE class, neighborhood) 
+    interactions.}
+    \label{fig:recsys-performance}
+\end{figure}
+
+
+These baseline results establish an empirically grounded comparison framework 
+against which the LLM-based methods of this paper, and the hybrid CF$+$LLM 
+architectures under development, can ultimately be compared. Preliminary 
+investigations suggest that the two paradigms exhibit complementary strengths on 
+this formulation: collaborative-filtering methods consistently outperform 
+pure-LLM baselines on the raw top-$N$ recommendation task, while LLM-based 
+approaches can incorporate natural-language preference constraints 
+(e.g., \emph{``near the port''}, \emph{``in a quiet area''}) that 
+interaction-based methods cannot represent structurally. These complementary 
+failure modes directly motivate the hybrid architecture sketched above, in which 
+a collaborative-filtering backbone generates candidates and an LLM-based layer 
+filters them against natural-language preferences. A full treatment of this 
+implicit-feedback formulation---including the hybrid pipeline, the 
+natural-language preference benchmark, and a head-to-head comparison with 
+pure-LLM and pure-CF baselines---is the subject of a forthcoming follow-up paper.
+
+\backmatter
+
+\bmhead{Supplementary information}
+
+All code, datasets, and trained-model artifacts associated with this study are publicly available in the following \href{https://github.com/giwrgoskakepakis/BSc-Thesis-Intelligent-Business-Location-Recommendation}{GitHub repository}. Readers interested in additional details are welcome to contact the corresponding author.
+
+% If your article has accompanying supplementary file/s please state so here. 
+
+% Please refer to Journal-level guidance for any specific requirements.
+
+% \bmhead{Acknowledgements}
+
+% Acknowledgements are not compulsory. Where included they should be brief. Grant or contribution numbers may be acknowledged.
+
+% Please refer to Journal-level guidance for any specific requirements.
+
+\section*{Declarations}
+ 
+All three authors contributed equally to this work.
+
+% \noindent
+% If any of the sections are not relevant to your manuscript, please include the heading and write `Not applicable' for that section. 
+
+% %%===================================================%%
+% %% For presentation purpose, we have included        %%
+% %% \bigskip command. Please ignore this.             %%
+% %%===================================================%%
+% \bigskip
+% \begin{flushleft}%
+% Editorial Policies for:
+
+% \bigskip\noindent
+% Springer journals and proceedings: \url{https://www.springer.com/gp/editorial-policies}
+
+% \bigskip\noindent
+% Nature Portfolio journals: \url{https://www.nature.com/nature-research/editorial-policies}
+
+% \bigskip\noindent
+% \textit{Scientific Reports}: \url{https://www.nature.com/srep/journal-policies/editorial-policies}
+
+% \bigskip\noindent
+% BMC journals: \url{https://www.biomedcentral.com/getpublished/editorial-policies}
+% \end{flushleft}
+
+% \begin{appendices}
+
+% \section{Section title of first appendix}\label{secA1}
+
+% An appendix contains supplementary information that is not an essential part of the text itself but which may be helpful in providing a more comprehensive understanding of the research problem or it is information that is too cumbersome to be included in the body of the paper.
+
+% %%=============================================%%
+% %% For submissions to Nature Portfolio Journals %%
+% %% please use the heading ``Extended Data''.   %%
+% %%=============================================%%
+
+% %%=============================================================%%
+% %% Sample for another appendix section			       %%
+% %%=============================================================%%
+
+% %% \section{Example of another appendix section}\label{secA2}%
+% %% Appendices may be used for helpful, supporting or essential material that would otherwise 
+% %% clutter, break up or be distracting to the text. Appendices can consist of sections, figures, 
+% %% tables and equations etc.
+
+% \end{appendices}
+
+%%===========================================================================================%%
+%% If you are submitting to one of the Nature Portfolio journals, using the eJP submission   %%
+%% system, please include the references within the manuscript file itself. You may do this  %%
+%% by copying the reference list from your .bbl file, paste it into the main manuscript .tex %%
+%% file, and delete the associated \verb+\bibliography+ commands.                            %%
+%%===========================================================================================%%
+%\bibliographystyle{sn-mathphys-num}
+
+%\nocite{*}
+\bibliography{biblio}% common bib file
+%% if required, the content of .bbl file can be included here once bbl is generated
+%\input biblio.bbl
+
+\end{document}
